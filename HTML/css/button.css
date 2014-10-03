@@ -1,6 +1,4 @@
-a.button-custom:link, a.button-custom:visited, a.button-custom:active {
-	color: #fff;
-}
+
 /*custom button bootstrap*/
 a.btn-primary, a.btn-success, a.btn-info, a.btn-warning, a.btn-danger, a.btn-primary:visited, a.btn-success:visited, a.btn-info:visited, a.btn-warning:visited, a.btn-danger:visited, a.btn-primary:focus, a.btn-success:focus, a.btn-info:focus, a.btn-warning:focus, a.btn-danger:focus, a.btn-primary:hover, a.btn-success:hover, a.btn-info:hover, a.btn-warning:hover, a.btn-danger:hover {
 	color: #fff;
@@ -46,7 +44,7 @@ a.btn-primary, a.btn-success, a.btn-info, a.btn-warning, a.btn-danger, a.btn-pri
 .btn-success {
 	background: none repeat scroll 0 0 #4bad7e;
 	border: 1px solid #4bad7e;
-	color: #fff;
+	color: #fff!important;
 }
 .btn-success:hover, .btn-success:focus {
 	background-color: #71ad90;

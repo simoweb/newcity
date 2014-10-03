@@ -144,12 +144,15 @@ a.button-custom.intro-button {
 	color: #fff;
 }	
 /*service*/
+.service-icon {
+	background-color:#fff;
+	}
 .service-icon .fa {
-	color: #ffffff;
+	color: #19668d;
 }
 .service-info h4 {
-	color: #19668d;
-	font-weight:400;
+	color:#666;
+	font-weight:500;
 }
 /* end service */
 /* ------- PAGES ------- */
