@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="" />
+		<meta name="Author" content="Simone Puliti [www.simowebdesigner.it]" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Template Newcity</title>
+		<!--favicon-->
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--animate.css-->
+		<link href="css/animate.css" rel="stylesheet">
+		<!--font-awesome-->
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<!--lightbox-->
+		<link href="css/lightbox.css" rel="stylesheet" />
+		<!--fractionslider-->
+		<link href="css/fractionslider.css" rel="stylesheet">
+		<!--custom theme-->
+		<link href="css/button.css" rel="stylesheet">
+		<link href="css/menu.css" rel="stylesheet">
+		<link href="css/theme.css" rel="stylesheet">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<!-- switch color -->
+		<link rel="stylesheet" href="css/colors/default.css" id="switch-color" type="text/css">
+		<link href="css/switch.css" rel="stylesheet">
+		<!--head libs-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+		<script src="js/plugin/jquery.queryloader2.min.js"></script>
+		<script>
+			//preload 
+			jQuery(document).ready(function () {
+				$('html').show();
+				$("body").queryLoader2({
+				barColor: "#4a8fad",
+				backgroundColor: "#f6f6f6",
+				percentage: true,
+				barHeight: 4,
+				deepSearch:true,
+				completeAnimation: "grow",
+				minimumTime: 500
+				});
+			});	
+		</script>
+		</head>
+	<!--top contact-->
+	<body>
+		<!--- STYLE SWITCHER -->
+		<div class="content-cog hidden-xs">
+			<i class="style-switcher-btn fa fa-cog fa-spin"></i>
+		</div>
+		<div class="switcher animated fadeInLeft">
+			<div class="theme-close"><i class="fa fa-times-circle"></i></div>
+			<div class="theme-heading">Colors</div>
+			<ul id="nav">
+				<li class="theme-default"><a href="#" rel="css/colors/default.css"></a></li>
+				<li class="theme-green"><a href="#" rel="css/colors/green.css"></a></li>
+				<li class="theme-azure"><a href="#" rel="css/colors/azure.css"></a></li>
+				<li class="theme-red"><a href="#" rel="css/colors/red.css"></a></li>
+				<li class="theme-orange"><a href="#" rel="css/colors/orange.css"></a></li>
+				<li class="theme-purple"><a href="#" rel="css/colors/purple.css"></a></li>
+				<li class="theme-gray"><a href="#" rel="css/colors/gray.css"></a></li>
+				<li class="theme-black"><a href="#" rel="css/colors/black.css"></a></li>
+			</ul>
+		</div>
+		<!--- END STYLE SWITCHER -->
+		<!-- HEADER -->
+		<header>
+			<!--top contact-->
+			<section class="brand-contact visible-lg visible-md visible-sm">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-sm-6 text-left" ><i class="fa fa-phone"></i> <span>1234-5678-91000</span> <i class="fa fa-envelope"></i> <span>mymail@company.com</span> <i class="fa fa-skype"></i> <span>skype.name</span></div>
+						<div class="col-sm-6 col-sm-6 text-right"> <i class="fa fa-facebook-square"></i> <i class="fa fa-twitter-square"></i> <i class="fa fa-google-plus-square"></i> <i class="fa fa-youtube-square"></i></div>
+					</div>
+				</div>
+			</section>
+			<!--end top contact--> 
+			<!--Menu-->
+			<div id="menu"> 
+				<nav id="navbar" class="navbar navbar-default navbar-static-top" role="navigation">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+									<!--logo-->
+									<a class="navbar-brand" href="#"><i class="fa fa-map-marker"></i><span>new</span>city</a>
+									<div class="subtitle hidden-xs">Business Template </div>
+									<!--end logo-->
+								</div>
+								<div class="collapse navbar-collapse" id="navbar-collapse">
+									<ul class="nav navbar-nav navbar-right">
+										<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<span class="caret"></span></a>
+											<ul class="dropdown-menu" role="menu">
+												<li><a href="index.html">Home animate</a></li>
+												<li><a href="index2.html">Home animate2</a></li>
+												<li><a href="index3.html">Home carousel</a></li>
+												<li><a href="index4.html">Home static</a></li>
+											</ul>
+										</li>
+										<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <span class="caret"></span></a>
+											<ul class="dropdown-menu" role="menu">
+												<li><a href="about.html">About us</a></li>
+												<li><a href="service.html">Service</a></li>
+												<li><a href="magazine.html">Magazine</a></li>
+												<li><a href="magazine-single.html">Magazine single</a></li>
+												<li><a href="blog.html">Blog list</a></li>
+												<li><a href="blog-single.html">Blog single</a></li>
+												<li><a href="login.html">Login/register</a></li>
+												<li><a href="404.html">404</a></li>
+											</ul>
+										</li>
+										<li class="dropdown active"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="current">Portfolio <span class="caret"></span></span></a>
+											<ul class="dropdown-menu" role="menu">
+												<li class="active"><a href="portfolio-column2.html">Column2</a></li>
+												<li><a href="portfolio-column3.html">Column3</a></li>
+												<li><a href="portfolio-column4.html">Column4</a></li>
+												<li><a href="portfolio-single-project.html">Single project</a></li>
+											</ul>
+										</li>
+										<li><a href="features.html">Features</a></li>
+										<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="current">Contact<span class="caret"></span></span></a>
+											<ul class="dropdown-menu" role="menu">
+												<li><a href="contact.html">Contact</a></li>
+												<li><a href="contact2.html">Contact full</a></li>
+											</ul>
+										</li>
+										<li class="search visible-lg">
+											<div class="input-group">
+												<input type="text" class="form-control" placeholder="Search..." id="query" name="query" value="">
+												<div class="input-group-btn">
+													<button type="submit" class="btn btn-empy"><i class="fa fa-search"></i></button>
+												</div>
+											</div>
+										</li>
+									</ul>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<!--end menu-->			
+		</header>
+		<!-- END HEADER --> 
+		
+		<!--page title-->
+		<div class="page-title">
+			<div class="container">
+				<div class="row">
+					<div class=" col-sm-8">
+						<h2 class="title">Portfolio 2 column</h2>
+					</div>
+					<div class=" col-sm-4">
+						<ol class="breadcrumb pull-right">
+							<li><a href="#">Home</a></li>
+							<li class="active">portfolio</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end page title--> 
+		<!-- CONTENT -->
+		<div id="content">
+			<section class="portfolio"> 
+				<!--box intro-->
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 ">
+							<div class="content-img"> <img src="images/demo/3.jpg" class="img-responsive" alt="..."/>
+								<div class="img-overlay">
+									<div class="caption-centered">
+										<div><a href="images/demo/3.jpg" data-lightbox="roadtrip"><span class="glyphicon glyphicon-plus"></span></a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 ">
+							<div class="content-img"> <img src="images/demo/1.jpg" class="img-responsive" alt="..."/>
+								<div class="img-overlay">
+									<div class="caption-centered">
+										<div><a href="images/demo/1.jpg" data-lightbox="roadtrip"><span class="glyphicon glyphicon-plus"></span></a> </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row fade-scroll">
+						<div class="col-sm-6 ">
+							<div class="content-img"> <img src="images/demo/2.jpg" class="img-responsive" alt="..."/>
+								<div class="img-overlay">
+									<div class="caption-centered">
+										<div><a href="images/demo/2.jpg" data-lightbox="roadtrip"><span class="glyphicon glyphicon-plus"></span></a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 fade-scroll">
+							<div class="content-img"> <img src="images/demo/3.jpg" class="img-responsive" alt="..."/>
+								<div class="img-overlay">
+									<div class="caption-centered">
+										<div><a href="images/demo/3.jpg" data-lightbox="roadtrip"><span class="glyphicon glyphicon-plus"></span></a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 fade-scroll">
+							<div class="content-img"> <img src="images/demo/3.jpg" class="img-responsive" alt="..."/>
+								<div class="img-overlay">
+									<div class="caption-centered">
+										<div><a href="images/demo/3.jpg" data-lightbox="roadtrip"><span class="glyphicon glyphicon-plus"></span></a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 fade-scroll">
+							<div class="content-img"> <img src="images/demo/2.jpg" class="img-responsive" alt="..."/>
+								<div class="img-overlay">
+									<div class="caption-centered">
+										<div><a href="images/demo/2.jpg" data-lightbox="roadtrip"><span class="glyphicon glyphicon-plus"></span></a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- END CONTENT --> 
+		<!--footer-->
+		<div id="footer">
+			<section class="footer">
+				<footer>
+					<div class="container">
+						<div class="row">
+							<div class=" col-md-4">
+								<h3>Contact Us</h3>
+								<ul class="list-unstyled list-contact">
+									<li><i class="fa fa-map-marker"></i> 1000 Avenue, Suite 333,
+									New York </li>
+									<li><i class="fa fa-phone"></i> <span>1234-5678-91000</span></li>
+									<li><i class="fa fa-envelope"></i> <span>mymail@company.com</span></li>
+									<li><i class="fa fa-skype"></i> <span>skype.name</span></li>
+									<li><i class="fa fa-clock-o"></i> Monday - Friday: 9:00 am - 10:00 pm</li>
+								</ul>
+							</div>
+							<div class=" col-md-4">
+								<h3>Our experience</h3>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+							</div>
+							<div class=" col-md-4">
+								<h3>Our vision</h3>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</section>
+			<section class="bottom-footer">
+				<p>Design by simowebdesigner</p>
+			</section>
+		</div>
+		<!--end footer--> 
+		<script src="js/bootstrap.min.js"></script> 
+		<script src="js/modernizr.custom.js"></script> 
+		<!--plugin-->
+		<script src="js/plugin/lightbox.min.js"></script> 
+		<script src="js/plugin/viewportchecker.js"></script> 
+		<script src="js/plugin/jquery.cookie.js"></script>
+		<script src="js/plugin/jquery.fractionslider.min.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+</html>	

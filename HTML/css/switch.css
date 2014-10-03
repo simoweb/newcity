@@ -1,0 +1,88 @@
+.content-cog {
+	background: none repeat scroll 0 0 #585f69;
+    border-radius: 6px 0 0 6px !important;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 7px 9px;
+    position: fixed;
+    right: 0;
+    top: 60px;
+    z-index: 555555;
+	-webkit-box-shadow: -4px 4px 7px 0px rgba(50, 50, 50, 0.66);
+	-moz-box-shadow:    -4px 4px 7px 0px rgba(50, 50, 50, 0.66);
+	box-shadow:         -4px 4px 7px 0px rgba(50, 50, 50, 0.66);
+}
+i.style-switcher-btn {
+    
+}
+
+.switcher {
+    background: none repeat scroll 0 0 #585f69;
+    border: 1px solid #666d76;
+    border-radius: 6px 0 0 6px !important;
+    display: none;
+    padding: 15px 15px 15px 15px;
+    position: fixed;
+    right: 0;
+    top: 60px;
+    width: 170px;
+    z-index: 555555;
+	-webkit-box-shadow: -4px 4px 7px 0px rgba(50, 50, 50, 0.66);
+	-moz-box-shadow:    -4px 4px 7px 0px rgba(50, 50, 50, 0.66);
+	box-shadow:         -4px 4px 7px 0px rgba(50, 50, 50, 0.66);
+}
+.switcher .theme-close {
+    position: absolute;
+    right: 6px;
+    top: 10px;
+}
+.switcher .theme-close i {
+    color: #fff;
+cursor: pointer;
+font-size: 22px;
+padding: 5px;
+}
+.switcher .theme-heading {
+color: #fff;
+font-size: 16px;
+margin-bottom: 10px;
+text-transform: uppercase;
+font-weight:bold;
+}
+.switcher ul {padding-left:0;}
+.switcher li {
+background: none repeat scroll 0 0 #c00;
+border-radius: 10% !important;
+cursor: pointer;
+display: inline-block;
+height: 26px;
+margin: 0 5px 5px 0;
+width: 26px;
+position:relative;
+}
+.switcher li a {display:block; position:absolute; top:0; bottom:0; width:100%;}
+.switcher li.theme-default {
+background: none repeat scroll 0 0 #4a8fad;
+}
+.switcher li.theme-green {
+background: none repeat scroll 0 0 #4bad7e;
+}
+.switcher li.theme-red {
+background: none repeat scroll 0 0 #ed4c4c;
+}
+.switcher li.theme-azure {
+background: none repeat scroll 0 0 #4bada4;
+}
+.switcher li.theme-orange {
+background: none repeat scroll 0 0 #ed904c;
+}
+.switcher li.theme-purple {
+background: none repeat scroll 0 0 #9b6bcc;
+}
+.switcher li.theme-gray {
+background: none repeat scroll 0 0 #ecf0f1;
+}
+.switcher li.theme-black {
+background: none repeat scroll 0 0 #333;
+}

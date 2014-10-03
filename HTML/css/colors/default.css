@@ -1,0 +1,193 @@
+/* ------- COLOR DEFAULT -------*/
+/* link color #4A8FAD */
+/* ------- GLOBAL -------*/
+body {
+	color: #8c9195;
+}
+a:link, a:visited {
+	color: #4A8FAD;
+}	
+a:active, a:focus, a:hover {
+	color: #ccc;
+}
+/* home animate */  
+.slider .slide h1.title   {
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+	}
+.slider .slide p.lead{
+	background-color: rgba(0,0,0,0.6); 
+	display:inline-block;
+	padding: 5px 10px;
+}
+.slider .slide p {
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+	}
+/*button theme slide animate*/
+.slider .btn-theme {
+	background: none repeat scroll 0 0 rgba(74,143,173, 0.9);
+    border: 1px solid rgba(74,143,173, 0.9) !important;
+	padding:12px 25px;
+	font-size: 22px !important;
+}
+.slider .btn-theme:hover, .btn-theme:focus,.btn-theme:active  {
+	background: none repeat scroll 0 0 rgba(74,143,173, 0.7);
+    border: 1px solid rgba(74,143,173, 0.7) !important;
+	color:#fcfcfc;
+}
+/* home figure static */
+h1.title {
+	color: #fff;
+}
+figcaption p {
+	color: #fcfcfc;
+}
+/* home carousel */
+.carousel-caption {
+	color: #fff;
+}
+.carousel .item {
+	background-color: #777;
+}
+.carousel-caption h1.title {
+	font-weight:200;
+	background-color: rgba(74,143,173,0.8); 
+	display:inline-block;
+padding: 5px 10px;
+}
+p.background-theme.lead {
+	background-color: rgba(74,143,173,0.8);
+	color:#fff;
+}
+
+.carousel-caption h1.title  span{
+	font-weight:700;
+}
+.carousel-caption  p.lead {
+	color:#222; 
+	background-color: rgba(255,255,255,0.7); 
+	display:inline-block;
+	padding: 5px 10px;
+}
+.carousel-caption  p{
+	color:#fff; 
+	background-color: rgba(0,0,0,0.8); 
+	display:inline-block;
+	padding: 5px 10px;
+}	
+ .background-black{
+	color:#fff; 
+	background-color: rgba(0,0,0,0.6); 
+	display:inline-block;
+	padding: 5px 10px;
+}	
+.carousel-caption  i {
+	color: #4A8FAD;
+}
+a.button-custom.intro-button {
+	background: none repeat scroll 0 0 rgba(74,143,173, 0.8);
+    border: 1px solid rgba(74,143,173, 0.9) !important;
+}
+
+/* ------- BUTTON ------- */
+.button-custom.intro-color {
+    background-color: #4A8FAD;
+}
+
+/*button theme*/
+.btn-theme,a.btn-theme {color:#fff;}
+.btn-theme {
+	background: #4A8FAD;
+    border: 1px solid rgba(74,143,173, 0.9) !important;
+}
+.btn-theme:hover, .btn-theme:focus,.btn-theme:active  {
+	background-color: #6f9bad;
+	border-color: #6f9bad;
+	color:#fcfcfc;
+}
+
+/* ------- MENU ------- */
+.navbar-default .navbar-brand  {color:#4A8FAD;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
+	color: #4a8fad;
+}
+.navbar-default .navbar-nav > .active > a {
+color: #4a8fad;
+}
+.dropdown-menu {
+border-top: 2px solid #4a8fad;
+}
+
+.dropdown-menu  > li  > a:hover,
+.dropdown-menu  > li  > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	transition: all 0.5s 0.1s;
+	-webkit-transition: all 0.5s 0.1s;
+	-moz-transition: all 0.5s 0.1s;
+	background-color: #4A8FAD;
+	color:#fff;
+}
+/* ------- TEXT ------- */
+.title {        
+	color:#4a8fad;
+	}
+.title span {color:#777;}
+.title-focus {
+color: #4A8FAD;
+}
+/*gallery*/
+.img-overlay {
+background: none repeat scroll 0 0 #47b8da;
+}
+.img-overlay .caption-centered span {
+color: #fff;
+}	
+/*service*/
+.service-icon {
+color: #47B8DA;
+}
+.service-icon span.glyphicon {
+color: #fff;
+}
+/* end service */
+/* ------- PAGES ------- */
+/* title page */
+.page-title {
+background: #21252b;
+}
+.page-title p {
+color: #fcfcfc;
+}
+.page-title.contact-title {
+border-bottom: 4px solid #ddd;
+}
+/*** blog ***/
+/*sidebar*/
+.panel-default > .panel-heading {
+background: #fff;
+color: #666;
+}
+.panel-default > .panel-heading i.fa {
+color: #4A8FAD;
+}
+/*categories*/
+ul.sidebar li {
+border-bottom: 1px solid #eee;
+}
+ul.sidebar li i {
+color: #ccc;
+}
+ul.sidebar li.active a {
+color: #ccc;
+}
+/* end sidebar */
+/*** end blog ***/
+
+/* features */
+.panel-primary > .panel-heading {
+background-color: #4a8fad;
+background-image: none;
+}
+/* end features*/
+/* ------- END PAGES ------- */

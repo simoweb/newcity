@@ -1,0 +1,133 @@
+/* ------- COLOR GREEN -------*/
+/*** COLOR #333 ***/
+
+/* ------- GLOBAL -------*/
+body {
+	color: #6e6e6e;
+	background-color: #F6F6F6;
+}
+a:link, a:visited {
+	color: #333;
+}	
+a:active, a:focus, a:hover {
+	color: #ccc;
+}
+/* contact top */
+section.brand-contact {
+	background-color: #21252b;
+	border-bottom: 1px solid #eee;
+	color: #fff;
+}
+section.brand-contact i {
+	color: #ccc;
+}
+/* end contact top */
+/* home figure static */
+h1.title {
+	color: #fff;
+}
+figcaption p {
+	color: #fcfcfc;
+}
+/* home carousel */
+.carousel-caption {
+	color: #fff;
+}
+.carousel .item {
+	background-color: #777;
+}
+/* ------- BUTTON ------- */
+.button-custom.intro-color {
+    background-color: #333;
+}
+/*button theme*/
+.btn-theme,a.btn-theme {color:#fff;}
+.btn-theme {
+	background: none repeat scroll 0 0 #333;
+	border: 1px solid #333;
+}
+.btn-theme:hover, .btn-theme:focus,.btn-theme:active  {
+	background-color: #999;
+	border-color: #999;
+	color:#fcfcfc;
+}
+/* ------- MENU ------- */
+.navbar-default .navbar-brand  {color:#333;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
+	color: #333;
+}
+.navbar-default .navbar-nav > .active > a {
+	color: #333;
+}
+.dropdown-menu {
+	border-top: 2px solid #333;
+}
+/* ------- TEXT ------- */
+.title-focus {
+	color: #333;
+}
+/*gallery*/
+.img-overlay {
+    background: none repeat scroll 0 0 #333;
+}
+.img-overlay .caption-centered span {
+	color: #fff;
+}	
+/*service*/
+.service-icon {
+	background: #333;
+	border: 1px solid #666;
+}
+.service-icon span.glyphicon {
+	color: #fff;
+}
+/* end service */
+
+/* ------- PAGES ------- */
+/* title page */
+.page-title {
+	background: #21252b;
+}
+.page-title p {
+	color: #fcfcfc;
+}
+.page-title .breadcrumb > li  a{
+	color: #fff;
+}
+.page-title.contact-title {
+	border-bottom: 4px solid #ddd;
+}
+/*** blog ***/
+/*sidebar*/
+.panel-default > .panel-heading {
+	background: #fff;
+	color: #666;
+}
+.panel-default > .panel-heading i.fa {
+	color: #333;
+}
+/*categories*/
+ul.sidebar li {
+	border-bottom: 1px solid #eee;
+}
+ul.sidebar li i {
+	color: #ccc;
+}
+ul.sidebar li.active a {
+	color: #ccc;
+}
+/* end sidebar */
+/*** end blog ***/
+
+/* features */
+.panel-primary > .panel-heading {
+	background-color: #333;
+    background-image: none;
+}
+.panel-black > .panel-heading {
+    background-color: #999;
+    color: #fff;
+}
+/* end features*/
+
+/* ------- END PAGES ------- */

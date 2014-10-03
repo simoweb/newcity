@@ -1,0 +1,116 @@
+/* ------- COLOR GREEN -------*/
+/*** COLOR #ed4c4c ***/
+
+/* ------- GLOBAL -------*/
+body {
+	color: #6e6e6e;
+	background-color: #F6F6F6;
+}
+a:link, a:visited {
+	color: #ed4c4c;
+}	
+a:active, a:focus, a:hover {
+	color: #ccc;
+}
+/* home figure static */
+h1.title {
+	color: #fff;
+}
+figcaption p {
+	color: #fcfcfc;
+}
+/* home carousel */
+.carousel-caption {
+	color: #fff;
+}
+.carousel .item {
+	background-color: #777;
+	}
+/* ------- BUTTON ------- */
+.button-custom.intro-color {
+    background-color: #ed4c4c;
+}
+/*button theme*/
+.btn-theme,a.btn-theme {color:#fff;}
+.btn-theme {
+	background: none repeat scroll 0 0 #ed4c4c;
+	border: 1px solid #ed4c4c;
+}
+.btn-theme:hover, .btn-theme:focus,.btn-theme:active  {
+	background-color: #e96f6f;
+	border-color: #e96f6f;
+	color:#fcfcfc;
+}
+/* ------- MENU ------- */
+.navbar-default .navbar-brand  {color:#ed4c4c;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
+	color: #ed4c4c;
+}
+.navbar-default .navbar-nav > .active > a {
+	color: #ed4c4c;
+}
+.dropdown-menu {
+	border-top: 2px solid #ed4c4c;
+}
+/* ------- TEXT ------- */
+.title-focus {
+	color: #ed4c4c;
+}
+/*gallery*/
+.img-overlay {
+    background: none repeat scroll 0 0 #ed4c4c;
+}
+.img-overlay .caption-centered span {
+	color: #fff;
+}	
+/*service*/
+.service-icon {
+	background: #ed4c4c;
+	border: 1px solid #d43131;
+}
+.service-icon span.glyphicon {
+	color: #fff;
+}
+/* end service */
+
+/* ------- PAGES ------- */
+/* title page */
+.page-title {
+	background: #21252b;
+}
+.page-title p {
+	color: #fcfcfc;
+}
+.page-title.contact-title {
+	border-bottom: 4px solid #ddd;
+}
+/*** blog ***/
+/*sidebar*/
+.panel-default > .panel-heading {
+	background: #fff;
+	color: #666;
+}
+.panel-default > .panel-heading i.fa {
+	color: #ed4c4c;
+}
+/*categories*/
+ul.sidebar li {
+	border-bottom: 1px solid #eee;
+}
+ul.sidebar li i {
+	color: #ccc;
+}
+ul.sidebar li.active a {
+	color: #ccc;
+}
+/* end sidebar */
+/*** end blog ***/
+
+/* features */
+.panel-primary > .panel-heading {
+	background-color: #ed4c4c;
+    background-image: none;
+}
+/* end features*/
+
+/* ------- END PAGES ------- */

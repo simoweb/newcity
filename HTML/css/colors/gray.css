@@ -1,0 +1,125 @@
+/* ------- COLOR GREEN -------*/
+/*** COLOR #ccc ***/
+
+/* ------- GLOBAL -------*/
+body {
+	color: #6e6e6e;
+	background-color: #F6F6F6;
+}
+a:link, a:visited {
+	color: #999999;
+}	
+a:active, a:focus, a:hover {
+	color: #ccc;
+}
+/* home figure static */
+h1.title {
+	color: #fff;
+}
+figcaption p {
+	color: #fcfcfc;
+}
+/* home carousel */
+.carousel-caption {
+	color: #fff;
+}
+.carousel .item {
+	background-color: #777;
+}
+/* ------- BUTTON ------- */
+.button-custom.intro-color {
+    background-color: #666;
+}
+/*button theme*/
+.btn-theme,a.btn-theme {color:#fff;}
+.btn-theme,a.btn-theme {color:#fff;}
+.btn-theme {
+	background: none repeat scroll 0 0 #ccc;
+	border: 1px solid #ccc;
+}
+.btn-theme:hover, .btn-theme:focus,.btn-theme:active  {
+	background-color: #ddd;
+	border-color: #ddd;
+	color:#fcfcfc;
+}
+/* ------- MENU ------- */
+.navbar-default .navbar-brand  {color:#999;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
+	color: #aaa;
+}
+.navbar-default .navbar-nav > .active > a {
+	color: #aaa;
+}
+.dropdown-menu {
+	border-top: 2px solid #ccc;
+}
+/* ------- TEXT ------- */
+.title-focus {
+	color: #ccc;
+}
+/*gallery*/
+.img-overlay {
+    background: none repeat scroll 0 0 #ccc;
+}
+.img-overlay .caption-centered span {
+	color: #fff;
+}	
+/*service*/
+.service-icon {
+	background: #ccc;
+	border: 1px solid #ddd;
+}
+.service-icon span.glyphicon {
+	color: #fff;
+}
+/* end service */
+
+/* ------- PAGES ------- */
+/* title page */
+.page-title {
+	background: #efefef; /* Old browsers */
+	background: -moz-linear-gradient(top, #efefef 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #efefef 0%, #e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #efefef 0%, #e5e5e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #efefef 0%, #e5e5e5 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #efefef 0%, #e5e5e5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#e5e5e5', GradientType=0 ); /* IE6-9 */
+}
+.page-title  h2 {color:#999;}
+.page-title p {
+	color: #fcfcfc;
+}
+.page-title.contact-title {
+	border-bottom: 4px solid #ddd;
+}
+/*** blog ***/
+/*sidebar*/
+.panel-default > .panel-heading {
+	background: #fff;
+	color: #666;
+}
+.panel-default > .panel-heading i.fa {
+	color: #ccc;
+}
+/*categories*/
+ul.sidebar li {
+	border-bottom: 1px solid #eee;
+}
+ul.sidebar li i {
+	color: #ccc;
+}
+ul.sidebar li.active a {
+	color: #ccc;
+}
+/* end sidebar */
+/*** end blog ***/
+
+/* features */
+.panel-primary > .panel-heading {
+	background-color: #999;
+    background-image: none;
+}
+/* end features*/
+
+/* ------- END PAGES ------- */
