@@ -105,7 +105,7 @@ ul li {
 }
 .italic {
 	font-style:italic;
-	}
+}
 
 /*	3. HEADER 
 =============================*/
@@ -727,28 +727,24 @@ section.brand-team .caption h4{
 	font-style: italic;
 	font-weight: 400;
 }
-/*service
+/*service two column
 ----------------------------*/	
 section.brand-service {
 	padding-top: 30px;
-	padding-bottom: 0;
+	padding-bottom: 60px;
+	background:#ECF0F1; 
+	border-bottom:1px solid #ddd;
 }
 section.brand-service h2.subTitle {
 	margin-bottom: 40px;
-}
-.service-row {
+	}/*
+	.service-row {
 	margin-bottom: 40px;
-}
-.service-info {
+	}
+	.service-info {
 	padding-left: 80px;
-}
-.service-icon {
-	/*background: #47B8DA;
-		border: 1px solid #198baa;
-		border: 1px solid #198baa;
-		-webkit-border-radius: 100%;
-		-moz-border-radius: 100%;
-	border-radius: 100%;*/
+	}
+	.service-icon {
 	float: left;
 	height: 60px;
 	text-align: center;
@@ -756,7 +752,7 @@ section.brand-service h2.subTitle {
 	transition: all 0.5s 0.1s;
 	-webkit-transition: all 0.5s 0.1s;
 	-moz-transition: all 0.5s 0.1s;
-}
+}*/
 .service-icon i.fa{
 	font-size: 45px;
 }
@@ -766,6 +762,31 @@ section.brand-service h2.subTitle {
 	box-shadow: 0 0 10px #ccc;
 	cursor: pointer;
 }
+/*service three column
+----------------------------*/
+.service-icon {
+	border-radius: 150px;
+	display: inline-block;
+	height: 150px;
+	text-align: center;
+	line-height: 150px;
+	margin: 0 0 24px;
+	overflow: hidden;
+	width: 150px;
+	zoom: 1;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	background: #19668d;
+}
+.service-icon .fa {
+	font-size: 40px;
+	line-height: 150px;
+	display: block;
+	overflow: hidden;
+	zoom: 1;
+}
+
 /*sidebar
 ----------------------------*/
 .panel-default > .panel-heading {
@@ -953,12 +974,12 @@ ul.list-contact li {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-    font-size: 80px;
-    font-weight: 400;
-    height: 130px;
-    padding: 20px;
-    text-align: center;
-    width: 130px;
+	font-size: 80px;
+	font-weight: 400;
+	height: 130px;
+	padding: 20px;
+	text-align: center;
+	width: 130px;
 } 
 #content-number h4 {color:#fff;}
 /*contact
