@@ -727,23 +727,25 @@ section.brand-team .caption h4{
 	font-style: italic;
 	font-weight: 400;
 }
-/*service two column
+/*service
 ----------------------------*/	
 section.brand-service {
 	padding-top: 30px;
 	padding-bottom: 60px;
 	border-bottom:1px solid #ddd;
 }
+
 section.brand-service h2.subTitle {
-	margin-bottom: 40px;
-	}/*
+	margin-bottom: 20px;
+	}
 	.service-row {
 	margin-bottom: 40px;
 	}
-	.service-info {
+	/*service align left*/	
+	.service-left .service-info {
 	padding-left: 80px;
 	}
-	.service-icon {
+	.service-left .service-icon {
 	float: left;
 	height: 60px;
 	text-align: center;
@@ -751,20 +753,34 @@ section.brand-service h2.subTitle {
 	transition: all 0.5s 0.1s;
 	-webkit-transition: all 0.5s 0.1s;
 	-moz-transition: all 0.5s 0.1s;
-}*/
-.service-icon i.fa{
-	font-size: 45px;
 }
-.service-icon:hover {
-	-webkit-box-shadow:  0 20px #333;
-	-moz-box-shadow: 0 0 20px #333;
-	box-shadow: 0 0 20px #333;
+.service-left .service-icon {
+	display: inline-block;
+	text-align: left;
+	line-height: 60px;
+	margin: 0 0 24px;
+	overflow: hidden;
+	zoom: 1;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	
+}
+.service-left .service-icon .fa {
+	font-size: 50px;
+	line-height: 60px;
+	display: block;
+	overflow: hidden;
+	zoom: 1;
+}
+.service-left .service-icon:hover {
 	cursor: pointer;
 }
-/*service three column
-----------------------------*/
-.service-icon {
+/*service align center*/
+.service-center .service-icon {
 	border-radius: 150px;
+	border-width:1px;
+	border-style:solid;
 	display: inline-block;
 	height: 150px;
 	text-align: center;
@@ -773,18 +789,28 @@ section.brand-service h2.subTitle {
 	overflow: hidden;
 	width: 150px;
 	zoom: 1;
+	-webkit-box-shadow:  0 1px #666;
+	-moz-box-shadow: 0 0 1px #666;
+	box-shadow: 0 0 1px #666;
+	cursor: pointer;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
+	
 }
-.service-icon .fa {
+.service-center .service-icon .fa {
 	font-size: 40px;
 	line-height: 150px;
 	display: block;
 	overflow: hidden;
 	zoom: 1;
 }
-
+.service-center .service-icon:hover {
+	-webkit-box-shadow:  0 20px #333;
+	-moz-box-shadow: 0 0 20px #333;
+	box-shadow: 0 0 20px #333;
+	cursor: pointer;
+}
 /*sidebar
 ----------------------------*/
 .panel-default > .panel-heading {
