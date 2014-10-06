@@ -145,10 +145,10 @@ a.button-custom.intro-button {
 }	
 /*service*/
 .service-icon {
-	background-color:#fff;
+	background-color:#19668d;
 	}
 .service-icon .fa {
-	color: #19668d;
+	color: #fff;
 }
 .service-info h4 {
 	color:#666;

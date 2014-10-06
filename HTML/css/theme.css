@@ -756,9 +756,9 @@ section.brand-service h2.subTitle {
 	font-size: 45px;
 }
 .service-icon:hover {
-	-webkit-box-shadow: 0 0 10px #ccc;
-	-moz-box-shadow: 0 0 10px #ccc;
-	box-shadow: 0 0 10px #ccc;
+	-webkit-box-shadow:  0 20px #333;
+	-moz-box-shadow: 0 0 20px #333;
+	box-shadow: 0 0 20px #333;
 	cursor: pointer;
 }
 /*service three column
@@ -776,7 +776,6 @@ section.brand-service h2.subTitle {
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
-	border:1px solid #666;
 }
 .service-icon .fa {
 	font-size: 40px;
