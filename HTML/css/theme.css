@@ -737,15 +737,15 @@ section.brand-service {
 
 section.brand-service h2.subTitle {
 	margin-bottom: 20px;
-	}
-	.service-row {
+}
+.service-row {
 	margin-bottom: 40px;
-	}
-	/*service align left*/	
-	.service-left .service-info {
+}
+/*service align left*/	
+.service-left .service-info {
 	padding-left: 80px;
-	}
-	.service-left .service-icon {
+}
+.service-left .service-icon {
 	float: left;
 	height: 60px;
 	text-align: center;
@@ -756,7 +756,7 @@ section.brand-service h2.subTitle {
 }
 .service-left .service-icon {
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 	line-height: 60px;
 	margin: 0 0 24px;
 	overflow: hidden;
@@ -764,10 +764,9 @@ section.brand-service h2.subTitle {
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
-	
 }
 .service-left .service-icon .fa {
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 60px;
 	display: block;
 	overflow: hidden;
@@ -776,6 +775,7 @@ section.brand-service h2.subTitle {
 .service-left .service-icon:hover {
 	cursor: pointer;
 }
+.service-left .service-description {text-align:justify;}
 /*service align center*/
 .service-center .service-icon {
 	border-radius: 150px;
@@ -1091,113 +1091,113 @@ hr.hr-20 {
 	margin-top: 60px;
 }
 .mb-0 {
-	margin-bottom: 0!important;
+margin-bottom: 0!important;
 }
 .mb-10 {
-	margin-bottom: 10px;
+margin-bottom: 10px;
 }
 .mb-20 {
-	margin-bottom: 20px;
+margin-bottom: 20px;
 }
 .mb-30 {
-	margin-bottom: 30px;
+margin-bottom: 30px;
 }
 .mb-40 {
-	margin-bottom: 40px;
+margin-bottom: 40px;
 }
 .mb-60 {
-	margin-bottom: 60px;
+margin-bottom: 60px;
 }
 .centered {
-	display: block;
-	float: none;
-	margin-left: auto;
-	margin-right: auto;
+display: block;
+float: none;
+margin-left: auto;
+margin-right: auto;
 }
 .transition {
-	transition: all 0.5s 0.1s;
-	-webkit-transition: all 0.5s 0.1s;
-	-moz-transition: all 0.5s 0.1s;
+transition: all 0.5s 0.1s;
+-webkit-transition: all 0.5s 0.1s;
+-moz-transition: all 0.5s 0.1s;
 }
 .white {color:#fff !important;}
 /*	9 .  Large desktops and laptops 
 =============================*/
 @media (min-width: 1200px) {
-	.slider-wrapper{
-		margin-top:71px;
-	}
-	/*portfolio*/
-	.portfolio [class*="col"] {
-		padding: 5px;
-	}
-	.page-title {
-		margin-top: 87px;
-	}
+.slider-wrapper{
+margin-top:71px;
+}
+/*portfolio*/
+.portfolio [class*="col"] {
+padding: 5px;
+}
+.page-title {
+margin-top: 87px;
+}
 }
 
 /*	10 . Portrait tablets and medium desktops
 =============================*/
 @media (min-width: 992px) and (max-width: 1199px) {
-	/*portfolio*/
-	.portfolio [class*="col"] {
-		padding: 0;
-	}
-	/*slider*/
-	.slider-wrapper{
-		margin-top:
-	}
+/*portfolio*/
+.portfolio [class*="col"] {
+padding: 0;
+}
+/*slider*/
+.slider-wrapper{
+margin-top:
+}
 }
 
 /*	11 . Portrait tablets and small desktops
 =============================*/
 @media (min-width: 768px) and (max-width: 991px) {
-	figcaption {
-		padding-bottom: 25px;
-		padding-top: 25px;
-	}
-	.carousel .item {
-		padding: 0;
-	}
-	/*portfolio*/
-	.portfolio [class*="col"] {
-		padding: 0;
-	}
+figcaption {
+padding-bottom: 25px;
+padding-top: 25px;
+}
+.carousel .item {
+padding: 0;
+}
+/*portfolio*/
+.portfolio [class*="col"] {
+padding: 0;
+}
 }
 
 /*	12 . Landscape phones and portrait tablets
 =============================*/
 @media (max-width: 767px) {
-	figcaption {
-		padding-bottom: 25px;
-		padding-top: 25px;
-	}
-	.carousel .item {
-		padding: 0;
-	}
-	.pt-30 {
-		padding-top: 0;
-	}
-	/*portfolio*/
-	.portfolio .content-img {
-		margin-bottom: 20px;
-	}
-	/*carousel*/
-	.carousel-indicators {
-		bottom: -40px;
-	}
-	.carousel-indicators .active {
-		background-color: #ccc;
-	}
-	.carousel-indicators li {
-		border: 1px solid #ccc;
-	}
+figcaption {
+padding-bottom: 25px;
+padding-top: 25px;
+}
+.carousel .item {
+padding: 0;
+}
+.pt-30 {
+padding-top: 0;
+}
+/*portfolio*/
+.portfolio .content-img {
+margin-bottom: 20px;
+}
+/*carousel*/
+.carousel-indicators {
+bottom: -40px;
+}
+.carousel-indicators .active {
+background-color: #ccc;
+}
+.carousel-indicators li {
+border: 1px solid #ccc;
+}
 }
 
 /*	13 . Landscape phones and smaller
 =============================*/
 @media (max-width: 480px) {
-	figcaption {
-		padding-bottom: 15px;
-		padding-top: 15px;
-	}
+figcaption {
+padding-bottom: 15px;
+padding-top: 15px;
+}
 }
