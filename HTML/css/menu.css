@@ -3,23 +3,14 @@
 
 #navbar {
 	z-index:10000;
-	 background: #fff;
+	background: transparent;
 	transition: all 0.5s 0.1s;
 	-webkit-transition: all 0.5s 0.1s;
 	-moz-transition: all 0.5s 0.1s;
 	padding-top:8px;
 	padding-bottom:0;
 }
-#navbar:after {
-    left: 0;
-    top: 100%;
-    content: '';
-    width: 100%;
-    height: 42px;
-    position: absolute;
-    background: url(../images/header-shadow.png) no-repeat;
-    background-position: center bottom;
-}
+
 .navbar {
 	border: o solid transparent;
 	margin-bottom: 0;
@@ -38,6 +29,7 @@
     position: relative;
     width: 170px;
 	margin-left: 15px!important;
+	border-bottom:0;
 }
 .navbar-brand:before {
 	position:absolute;
@@ -58,11 +50,10 @@
 	padding-left:0;
 	margin-left: 15px!important;
 	font-size:12px; 
-	color:#999;
+	color:#eee;
 }
 .navbar-brand  span{
 	font-weight:400;
-	color:#666;
 }
 /*menu
 ----------------------------*/
@@ -92,6 +83,7 @@
 	margin-bottom: 15px;
 	padding: 10px 20px;
 	font-size: 15px;
+	color:#333;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,.navbar-default .navbar-nav > .active > a:focus,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
 	background-image: none;
@@ -99,10 +91,10 @@
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	color:#fff;
+	color:#333;
 }
 .navbar-default .navbar-nav > .active {
-	color:#fff;
+	color:#333;
 }
 /*search
 ----------------------------*/	
@@ -185,22 +177,6 @@ li.search .form-control:focus {
 	color: #4a8fad;
 	background-color: transparent;
 }
-/*
-.dropdown-menu  > li  > a:hover,
-.dropdown-menu  > li  > a:focus,
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-	background-color: #e8e8e8;
-	background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
-	background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e8e8e8));
-	background-image:         linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
-	background-repeat: repeat-x;
-	color:#333;
-}
-*/
 
 /* Large desktops and laptops
 ----------------------------*/	
@@ -228,6 +204,9 @@ li.search .form-control:focus {
 		100% { opacity: 1; }
 	}
 	/*end animate menu*/
+	.navbar-default .navbar-nav > li > a {
+		color:#fff;
+	}
 	.dropdown .dropdown-menu {
 		display:none;
 	}
@@ -238,12 +217,49 @@ li.search .form-control:focus {
 		animation-name: fadeIn;
 		animation-duration:  0.4s;
 	}
+	
+	/*fixed-menu logo*/
+	.subtitle {
+		padding-left:0;
+		margin-left: 15px!important;
+		font-size:12px; 
+		color:#fcfcfc;
+	}
+	.navbar-brand  span{
+		font-weight:400;
+		color:#fff;
+	}
+	.navbar-header{
+		text-align:center;
+	}
 	.fixed-menu {
 		z-index: 9999;
 		position: fixed;
 		left: 0;
 		top: 0;
 		width: 100%;
+		padding-top:0;
+		padding-bottom:0;
+		background-color:#fff!important;
+	}
+	.fixed-menu:after {
+		left: 0;
+		top: 100%;
+		content: '';
+		width: 100%;
+		height: 42px;
+		position: absolute;
+		background: url(../images/header-shadow.png) no-repeat;
+		background-position: center bottom;
+	}
+	.fixed-menu .navbar-nav > li > a {
+		color:#333;
+	}
+	.fixed-menu .subtitle { 
+		color:#999;
+	}
+	.fixed-menu .navbar-brand  span{
+		color:#666;
 	}
 }
 
@@ -275,6 +291,14 @@ li.search .form-control:focus {
 		-webkit-border-radius: 1px;
 		-moz-border-radius: 1px;
 		border-radius: 1px;
+		color:#333;
+		
+	}
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,.navbar-default .navbar-nav > .active > a:focus,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
+		color:#333;
+	}
+	.navbar-default .navbar-nav > .active {
+		color:#333;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		color: #777;

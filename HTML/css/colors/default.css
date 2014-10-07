@@ -105,6 +105,8 @@ a.button-custom.intro-button {
 
 /* ------- MENU ------- */
 .navbar-default .navbar-brand  {color:#19668d;}
+.navbar-brand:before {color:#19668d;}
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
 	color: #19668d;
 }
@@ -126,6 +128,17 @@ a.button-custom.intro-button {
 	background-color: #19668d;
 	color:#fff;
 }
+.fixed-menu .navbar-brand  {color:#fff;}
+.fixed-menu .navbar-nav > .active > a,.fixed-menu  .navbar-brand:before {
+	color: #19668d;
+}
+@media (min-width: 1200px) {
+	.navbar-default .navbar-brand  {color:#19668d;}
+	.navbar-brand:before {color:#fff;}
+	.navbar-default .navbar-nav > .active > a {
+		color: #fff;
+	}
+}
 /* ------- TEXT ------- */
 .title {        
 	color:#19668d;
@@ -144,8 +157,8 @@ a.button-custom.intro-button {
 /* ------- Service------- */
 .service-icon {
 	background-color:transparent;
-	border-color:transparent;
-	}
+border-color:transparent;
+}
 .service-icon .fa {
 	color: #666;
 }
@@ -155,7 +168,7 @@ a.button-custom.intro-button {
 }
 .service-left .service-icon .fa  {
 	color: #19668d;
-	}
+}
 /* ------- PAGES ------- */
 /* title page */
 .page-title {
@@ -181,13 +194,13 @@ ul.sidebar li {
 	border-bottom: 1px solid #eee;
 }
 ul.sidebar li i {
-color: #ccc;
+	color: #ccc;
 }
 ul.sidebar li.active a {
-color: #ccc;
+	color: #ccc;
 }
 /* ------- Table pircing ------- */
 .panel-primary > .panel-heading {
-background-color: #19668d;
-background-image: none;
+	background-color: #19668d;
+	background-image: none;
 }

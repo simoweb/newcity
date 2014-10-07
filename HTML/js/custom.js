@@ -10,15 +10,12 @@
 // 1 - top menu fixed on scroll
 jQuery("document").ready(function($){ 
     var nav = $('#navbar'); 
-	var dropDown = $('.navbar-default .navbar-nav > l'); 
     $(window).scroll(function () {
         if ($(this).scrollTop() >38) {
-            nav.addClass("fixed-menu").css({"padding-top":"0","padding-bottom":"0"});
-			dropDown.css({"padding-bottom":"8px"});
+            nav.addClass("fixed-menu");
 			} 
 		    else {
-            nav.removeClass("fixed-menu").css({"padding-top":"8px","padding-bottom":"0"});
-			dropDown.css({"padding-bottom":"0"});
+            nav.removeClass("fixed-menu");
 		}
 	});
 });
