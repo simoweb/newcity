@@ -1,6 +1,20 @@
-/* ------- COLOR DEFAULT -------*/
+/* COLOR DEFAULT
+============================*/
 /* link color #19668d */
-/* ------- GLOBAL -------*/
+
+/*
+	1.  GLOBAL 
+	2.  MENU
+	3.  SLIDE 
+	4.  BUTTON 
+	5.  TEXT
+	6.	CONTENT
+	7.	PAGES
+*/
+
+
+/*	1. GLOBAL 
+============================*/
 body {
 	color: #8c9195;
 }
@@ -10,7 +24,47 @@ a:link, a:visited {
 a:active, a:focus, a:hover {
 	color: #ccc;
 }
-/* home animate */  
+/*	2. MENU
+============================*/ 
+.navbar-brand:before {color:#19668d;}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
+	color: #19668d;
+}
+.navbar-default .navbar-nav > .active > a {
+	color: #19668d;
+}
+.dropdown-menu {
+	border-top: 0 solid transparent;
+}
+.dropdown-menu  > li  > a:hover,
+.dropdown-menu  > li  > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	transition: all 0.5s 0.1s;
+	-webkit-transition: all 0.5s 0.1s;
+	-moz-transition: all 0.5s 0.1s;
+	background-color: transparent;
+	color:#19668d;
+}
+.fixed-menu .navbar-brand  {color:#fff;}
+.fixed-menu .navbar-nav > .active > a,.fixed-menu  .navbar-brand:before {
+	color: #19668d;
+}
+@media (min-width: 1200px) {
+	.navbar-default .navbar-brand  {color:#19668d;}
+	.navbar-brand:before {color:#fff;}
+	.navbar-default .navbar-nav > .active > a {
+		color: #fff;
+	}
+	.fixed-menu .navbar-nav > .active > a {
+		color: #19668d;
+	}
+}
+/*	3. SLIDE
+============================*/ 
+/***** animate *****/
 .slider .slide h1.title   {
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
@@ -34,14 +88,7 @@ a:active, a:focus, a:hover {
     border: 1px solid rgba(74,143,173, 0.7) !important;
 	color:#fcfcfc;
 }
-/* home figure static */
-h1.title {
-	color: #fff;
-}
-figcaption p {
-	color: #fcfcfc;
-}
-/* home carousel */
+/***** carousel *****/
 .carousel-caption {
 	color: #fff;
 }
@@ -87,7 +134,16 @@ a.button-custom.intro-button {
 	background: none repeat scroll 0 0 rgba(74,143,173, 0.8);
     border: 1px solid rgba(74,143,173, 0.9) !important;
 }
-/* ------- BUTTON ------- */
+/***** header static *****/
+h1.title {
+	color: #fff;
+}
+figcaption p {
+	color: #fcfcfc;
+}
+
+/*	4. BUTTON
+============================*/ 
 .button-custom.intro-color {
     background-color: #19668d;
 }
@@ -102,44 +158,8 @@ a.button-custom.intro-button {
 	border-color: #6f9bad;
 	color:#fcfcfc;
 }
-
-/* ------- MENU ------- */
-.navbar-default .navbar-brand  {color:#19668d;}
-.navbar-brand:before {color:#19668d;}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
-	color: #19668d;
-}
-.navbar-default .navbar-nav > .active > a {
-	color: #19668d;
-}
-.dropdown-menu {
-	border-top: 2px solid #19668d;
-}
-
-.dropdown-menu  > li  > a:hover,
-.dropdown-menu  > li  > a:focus,
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-	transition: all 0.5s 0.1s;
-	-webkit-transition: all 0.5s 0.1s;
-	-moz-transition: all 0.5s 0.1s;
-	background-color: #19668d;
-	color:#fff;
-}
-.fixed-menu .navbar-brand  {color:#fff;}
-.fixed-menu .navbar-nav > .active > a,.fixed-menu  .navbar-brand:before {
-	color: #19668d;
-}
-@media (min-width: 1200px) {
-	.navbar-default .navbar-brand  {color:#19668d;}
-	.navbar-brand:before {color:#fff;}
-	.navbar-default .navbar-nav > .active > a {
-		color: #fff;
-	}
-}
-/* ------- TEXT ------- */
+/*	5. TEXT
+============================*/ 
 .title {        
 	color:#19668d;
 }
@@ -147,17 +167,19 @@ a.button-custom.intro-button {
 .title-focus {
 	color: #19668d;
 }
-/* ------- Gallery------- */
+/*	6. CONTENT
+============================*/ 
+/***** gallery *****/
 .img-overlay {
 	background: none repeat scroll 0 0 #19668d;
 }
 .img-overlay .caption-centered span {
 	color: #fff;
 }	
-/* ------- Service------- */
+/***** service *****/ 
 .service-icon {
 	background-color:transparent;
-border-color:transparent;
+	border-color:transparent;
 }
 .service-icon .fa {
 	color: #666;
@@ -169,19 +191,10 @@ border-color:transparent;
 .service-left .service-icon .fa  {
 	color: #19668d;
 }
-/* ------- PAGES ------- */
-/* title page */
-.page-title {
-	background: #21252b;
+.brand-testimonial .owl-carousel-testimonial i.fa {
+	color: #19668d;;
 }
-.page-title p {
-	color: #fcfcfc;
-}
-.page-title.contact-title {
-	border-bottom: 4px solid #ddd;
-}
-
-/* ------- Sidebar ------- */
+/***** sidebar *****/
 .panel-default > .panel-heading {
 	background: #fff;
 	color: #666;
@@ -199,8 +212,22 @@ ul.sidebar li i {
 ul.sidebar li.active a {
 	color: #ccc;
 }
-/* ------- Table pircing ------- */
+/***** table *****/ 
 .panel-primary > .panel-heading {
 	background-color: #19668d;
 	background-image: none;
 }
+
+/*	7. PAGES
+============================*/ 
+/* title page */
+.page-title {
+	background: #21252b;
+}
+.page-title p {
+	color: #fcfcfc;
+}
+.page-title.contact-title {
+	border-bottom: 4px solid #ddd;
+}
+

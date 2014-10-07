@@ -7,7 +7,7 @@
 	transition: all 0.5s 0.1s;
 	-webkit-transition: all 0.5s 0.1s;
 	-moz-transition: all 0.5s 0.1s;
-	padding-top:8px;
+	padding-top:18px;
 	padding-bottom:0;
 }
 
@@ -18,8 +18,9 @@
 /*logo
 ----------------------------*/
 .navbar-header{
-	text-align:center;
-}
+		padding-top: 5px;
+		text-align: center;
+	}
 .navbar-brand {
 	font-size: 32px;
     font-weight: 500;
@@ -27,7 +28,7 @@
     line-height: 40px;
     padding: 4px  0;
     position: relative;
-    width: 170px;
+    width: 140px;
 	margin-left: 15px!important;
 	border-bottom:0;
 }
@@ -37,7 +38,7 @@
 	top:11px;
 	font-size: 26px;
 	width:25px;
-	content: "\f06c";
+	content: "\f0ac";
 	display: inline-block;
 	font: normal normal normal 14px/1 FontAwesome;
 	font-size: inherit;
@@ -63,6 +64,7 @@
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
+	border:none;
 }
 .navbar-default.white {
 	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
@@ -159,6 +161,20 @@ li.search .form-control:focus {
 	padding-bottom: 0;
 	left: 0!important;
 }
+.dropdown-menu:before {
+	font: normal 30px/1 FontAwesome;
+	content: "\f0d8";
+	position:absolute;
+	color:#fff;
+	left: 20px;
+	top:-20px;
+	width:50px;
+	display: inline-block;
+	
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 .dropdown-menu > li {
 	margin-bottom: 0;
 }
@@ -181,10 +197,6 @@ li.search .form-control:focus {
 /* Large desktops and laptops
 ----------------------------*/	
 @media (min-width: 1200px) {
-	#menu {
-		position: absolute;
-		width: 100%;
-	}
 	/*animate menu*/
 	@-webkit-keyframes fadeIn { 
 		0% { opacity: 0; }
@@ -204,33 +216,16 @@ li.search .form-control:focus {
 		100% { opacity: 1; }
 	}
 	/*end animate menu*/
+	/*menu*/
+	#menu {
+		position: absolute;
+		width: 100%;
+	}
+	#navbar.fixed-menu{
+		padding-top:0px;
+	}
 	.navbar-default .navbar-nav > li > a {
 		color:#fff;
-	}
-	.dropdown .dropdown-menu {
-		display:none;
-	}
-	.dropdown:hover .dropdown-menu {
-		display: block;
-		-webkit-animation-name: fadeIn;
-		-webkit-animation-duration: 0.4s;
-		animation-name: fadeIn;
-		animation-duration:  0.4s;
-	}
-	
-	/*fixed-menu logo*/
-	.subtitle {
-		padding-left:0;
-		margin-left: 15px!important;
-		font-size:12px; 
-		color:#fcfcfc;
-	}
-	.navbar-brand  span{
-		font-weight:400;
-		color:#fff;
-	}
-	.navbar-header{
-		text-align:center;
 	}
 	.fixed-menu {
 		z-index: 9999;
@@ -261,6 +256,25 @@ li.search .form-control:focus {
 	.fixed-menu .navbar-brand  span{
 		color:#666;
 	}
+	
+	.dropdown .dropdown-menu {
+		display:none;
+	}
+	.dropdown:hover .dropdown-menu {
+		display: block;
+		-webkit-animation-name: fadeIn;
+		-webkit-animation-duration: 0.4s;
+		animation-name: fadeIn;
+		animation-duration:  0.4s;
+	}
+	
+	/*fixed-menu logo*/
+	.subtitle {
+		color:#fcfcfc;
+	}
+	.navbar-brand  span{
+		color:#fff;
+	}	
 }
 
 /* Portrait tablets and medium desktops
@@ -280,45 +294,46 @@ li.search .form-control:focus {
 		height: 50px;
 	}
 	.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > .active > a {
-		padding: 10px 20px;
-		text-align: left;
-		background:#eee;
-		margin-bottom:0;
-		margin-top:0;
-		border-width:0 0 1px 0;
-		border-color: #ccc;
-		border-style:solid;
-		-webkit-border-radius: 1px;
-		-moz-border-radius: 1px;
-		border-radius: 1px;
-		color:#333;
-		
+	padding: 10px 20px;
+	text-align: left;
+	background:#eee;
+	margin-bottom:0;
+	margin-top:0;
+	border-width:0 0 1px 0;
+	border-color: #ccc;
+	border-style:solid;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	color:#333;
+	
 	}
 	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,.navbar-default .navbar-nav > .active > a:focus,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
-		color:#333;
+	color:#333;
 	}
 	.navbar-default .navbar-nav > .active {
-		color:#333;
+	color:#333;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-		color: #777;
-		text-align: left;
-		padding-top:10px;
-		padding-bottom:10px;
-		-webkit-border-radius: 1px;
-		-moz-border-radius: 1px;
-		border-radius: 1px;
+	color: #777;
+	text-align: left;
+	padding-top:10px;
+	padding-bottom:10px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
 	}
 	.dropdown-menu > li:last-child a {
-		margin-bottom: 0;
-		border-bottom: 1px solid #eee;
+	margin-bottom: 0;
+	border-bottom: 1px solid #eee;
 	}
-}
-
-/* Landscape phones and smaller
-----------------------------*/	
-@media (max-width: 480px) {
+	}
+	
+	/* Landscape phones and smaller
+	----------------------------*/	
+	@media (max-width: 480px) {
 	.navbar-brand {
-		padding: 3px;
+	padding: 3px;
 	}
-}
+	}
+		
