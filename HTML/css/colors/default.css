@@ -172,11 +172,11 @@ color: #fff;
 }	
 /***** service *****/ 
 .service-icon {
-background-color:transparent;
+background-color:#69B8D6;
 border-color:transparent;
 }
 .service-icon .fa {
-color: #666;
+color: #fff;
 }
 .service-info h4 {
 color:#666;
