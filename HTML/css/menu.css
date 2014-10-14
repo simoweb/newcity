@@ -118,28 +118,15 @@
 	text-align: left;
 	border-top: 2px solid #4a8fad;
 	font-size: 13px;
-	-webkit-border-radius: 5px !important;
-	-moz-border-radius: 5px !important;
-	border-radius: 5px !important;
+	-webkit-border-radius: 2px !important;
+	-moz-border-radius: 2px !important;
+	border-radius: 2px !important;
 	margin-bottom: 0;
 	padding-top: 0;
 	padding-bottom: 0;
-	left: 0!important;
+	right: 0!important;
 }
-.dropdown-menu:before {
-	font: normal 30px/1 FontAwesome;
-	content: "\f0d8";
-	position:absolute;
-	color:#fff;
-	left: 20px;
-	top:-20px;
-	width:50px;
-	display: inline-block;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-shadow: 1px -1px 1px #ccc;
-}
+
 .dropdown-menu > li {
 	margin-bottom: 0;
 }
