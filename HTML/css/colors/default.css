@@ -4,12 +4,14 @@
 
 /*
 	1.  GLOBAL 
-	2.  MENU
-	3.  SLIDE 
-	4.  BUTTON 
-	5.  TEXT
-	6.	CONTENT
-	7.	PAGES
+	2.  LOGO
+	3.  MENU
+	4.  SLIDE 
+	5.  BUTTON 
+	6.  TEXT
+	7.	CONTENT
+	8.	PAGES
+	9.  MEDIA QUERY
 */
 
 
@@ -24,10 +26,14 @@ a:link, a:visited {
 a:active, a:focus, a:hover {
 	color: #ccc;
 }
-/*	2. MENU
+/*	2. LOGO
 ============================*/ 
 .navbar-brand:before {color:#19668d;}
-
+.navbar-brand span {
+    color: #666;
+}
+/*	3. MENU
+============================*/ 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
 	color: #19668d;
 }
@@ -52,17 +58,7 @@ a:active, a:focus, a:hover {
 .fixed-menu .navbar-nav > .active > a,.fixed-menu  .navbar-brand:before {
 	color: #19668d;
 }
-@media (min-width: 1200px) {
-	.navbar-default .navbar-brand  {color:#19668d;}
-	.navbar-brand:before {color:#fff;}
-	.navbar-default .navbar-nav > .active > a {
-		color: #fff;
-	}
-	.fixed-menu .navbar-nav > .active > a {
-		color: #19668d;
-	}
-}
-/*	3. SLIDE
+/*	4. SLIDE
 ============================*/ 
 /***** animate *****/
 .slider .slide h1.title   {
@@ -78,156 +74,171 @@ a:active, a:focus, a:hover {
 }
 /*button theme slide animate*/
 .slider .btn-theme {
-	background: none repeat scroll 0 0 rgba(74,143,173, 0.9);
-    border: 1px solid rgba(74,143,173, 0.9) !important;
-	padding:12px 25px;
-	font-size: 22px !important;
+background: none repeat scroll 0 0 rgba(74,143,173, 0.9);
+border: 1px solid rgba(74,143,173, 0.9) !important;
 }
 .slider .btn-theme:hover, .btn-theme:focus,.btn-theme:active  {
-	background: none repeat scroll 0 0 rgba(74,143,173, 0.7);
-    border: 1px solid rgba(74,143,173, 0.7) !important;
-	color:#fcfcfc;
+background: none repeat scroll 0 0 rgba(74,143,173, 0.7);
+border: 1px solid rgba(74,143,173, 0.7) !important;
+color:#fcfcfc;
 }
 /***** carousel *****/
 .carousel-caption {
-	color: #fff;
+color: #fff;
 }
 .carousel .item {
-	background-color: #777;
+background-color: #777;
 }
 .carousel-caption h1.title {
-	font-weight:200;
-	background-color: rgba(74,143,173,0.8); 
-	display:inline-block;
-	padding: 5px 10px;
+font-weight:200;
+background-color: rgba(74,143,173,0.8); 
+display:inline-block;
+padding: 5px 10px;
 }
 p.background-theme.lead {
-	background-color: rgba(74,143,173,0.8);
-	color:#fff;
+background-color: rgba(74,143,173,0.8);
+color:#fff;
 }
 
 .carousel-caption h1.title  span{
-	font-weight:700;
+font-weight:700;
 }
 .carousel-caption  p.lead {
-	color:#222; 
-	background-color: rgba(255,255,255,0.7); 
-	display:inline-block;
-	padding: 5px 10px;
+color:#222; 
+background-color: rgba(255,255,255,0.7); 
+display:inline-block;
+padding: 5px 10px;
 }
 .carousel-caption  p{
-	color:#fff; 
-	background-color: rgba(0,0,0,0.8); 
-	display:inline-block;
-	padding: 5px 10px;
+color:#fff; 
+background-color: rgba(0,0,0,0.8); 
+display:inline-block;
+padding: 5px 10px;
 }	
 .background-black{
-	color:#fff; 
-	background-color: rgba(0,0,0,0.6); 
-	display:inline-block;
-	padding: 5px 10px;
+color:#fff; 
+background-color: rgba(0,0,0,0.6); 
+display:inline-block;
+padding: 5px 10px;
 }	
 .carousel-caption  i {
-	color: #19668d;
+color: #19668d;
 }
 a.button-custom.intro-button {
-	background: none repeat scroll 0 0 rgba(74,143,173, 0.8);
-    border: 1px solid rgba(74,143,173, 0.9) !important;
+background: none repeat scroll 0 0 rgba(74,143,173, 0.8);
+border: 1px solid rgba(74,143,173, 0.9) !important;
 }
 /***** header static *****/
 h1.title {
-	color: #fff;
+color: #fff;
 }
 figcaption p {
-	color: #fcfcfc;
+color: #fcfcfc;
 }
 
-/*	4. BUTTON
+/*	5. BUTTON
 ============================*/ 
 .button-custom.intro-color {
-    background-color: #19668d;
+background-color: #19668d;
 }
 /*button theme*/
 .btn-theme,a.btn-theme {color:#fff;}
 .btn-theme {
-	background: #19668d;
-    border: 1px solid rgba(74,143,173, 0.9) !important;
+background: #19668d;
+border: 1px solid rgba(74,143,173, 0.9) !important;
 }
 .btn-theme:hover, .btn-theme:focus,.btn-theme:active  {
-	background-color: #6f9bad;
-	border-color: #6f9bad;
-	color:#fcfcfc;
+background-color: #6f9bad;
+border-color: #6f9bad;
+color:#fcfcfc;
 }
-/*	5. TEXT
+/*	6. TEXT
 ============================*/ 
 .title {        
-	color:#19668d;
+color:#19668d;
 }
 .title span {color:#777;}
 .title-focus {
-	color: #19668d;
+color: #19668d;
 }
-/*	6. CONTENT
+/*	7. CONTENT
 ============================*/ 
 /***** gallery *****/
 .img-overlay {
-	background: none repeat scroll 0 0 #19668d;
+background: none repeat scroll 0 0 #19668d;
 }
 .img-overlay .caption-centered span {
-	color: #fff;
+color: #fff;
 }	
 /***** service *****/ 
 .service-icon {
-	background-color:transparent;
-	border-color:transparent;
+background-color:transparent;
+border-color:transparent;
 }
 .service-icon .fa {
-	color: #666;
+color: #666;
 }
 .service-info h4 {
-	color:#666;
-	font-weight:500;
+color:#666;
+font-weight:500;
 }
 .service-left .service-icon .fa  {
-	color: #19668d;
+color: #19668d;
 }
 .brand-testimonial .owl-carousel-testimonial i.fa {
-	color: #19668d;;
+color: #19668d;;
 }
+/***** what we do *****/
+.circle-point{
+	background: none repeat scroll 0 0 #6CA9C6; 
+	}
 /***** sidebar *****/
 .panel-default > .panel-heading {
-	background: #fff;
-	color: #666;
+background: #fff;
+color: #666;
 }
 .panel-default > .panel-heading i.fa {
-	color: #19668d;
+color: #19668d;
 }
 /*categories*/
 ul.sidebar li {
-	border-bottom: 1px solid #eee;
+border-bottom: 1px solid #eee;
 }
 ul.sidebar li i {
-	color: #ccc;
+color: #ccc;
 }
 ul.sidebar li.active a {
-	color: #ccc;
+color: #ccc;
 }
 /***** table *****/ 
 .panel-primary > .panel-heading {
-	background-color: #19668d;
-	background-image: none;
+background-color: #19668d;
+background-image: none;
 }
 
-/*	7. PAGES
+/*	8. PAGES
 ============================*/ 
 /* title page */
 .page-title {
-	background: #21252b;
+background: #21252b;
 }
 .page-title p {
-	color: #fcfcfc;
+color: #fcfcfc;
 }
 .page-title.contact-title {
-	border-bottom: 4px solid #ddd;
+border-bottom: 4px solid #ddd;
 }
-
+/*	9. MEDIA QUERY 
+=============================*/
+@media (min-width: 1200px) {
+	/*logo*/
+	.navbar-brand:before {color:#19668d;}
+	.navbar-brand span {color:#fff;}
+	/*menu*/
+	.navbar-default .navbar-nav > .active > a {
+		color: #fff;
+	}
+	.fixed-menu .navbar-nav > .active > a {
+		color: #19668d;
+	}
+}

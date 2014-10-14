@@ -51,7 +51,7 @@ $.fn.animateBar = function(){
 }
 
 jQuery(document).ready(function() {
-    jQuery('.fade-scroll,.fade-scroll-left,.fade-scroll-right').addClass("hidden-scroll").viewportChecker({
+    jQuery('.fade-scroll.animate-bar,.fade-scroll-left.animate-bar,.fade-scroll-right.animate-bar').addClass("hidden-scroll").viewportChecker({
 		classToAdd: 'visible-scroll animated fadeIn',
 		offset: 100,
 		callbackFunction: function(elem, action){jQuery('.progress').animateBar();} 
