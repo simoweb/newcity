@@ -569,7 +569,7 @@ p.lead {
 /*recent work
 ----------------------------*/	
 section.brand-recent-work {
-	padding: 40px 0;
+	padding: 60px 0;
 	background-color:#f5f5f5;
 }
 
@@ -690,6 +690,8 @@ section.brand-recent-work {
 	background-image: url(../images/background/background-snow.jpg);
 	color: #FFF;
 	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 .brand-emotional .title span{color:#fff;}
 .brand-emotional.two {
@@ -699,6 +701,10 @@ section.brand-recent-work {
 	background-image: url(../images/background/map.jpg);
 	color: #FFF;
 	text-align: left;
+}
+.brand-cloud {
+	background-image: url(../images/background/background-cloud.jpg);
+	border-bottom:1px solid #ddd;
 }
 .brand-skills h2 {color:#fff;}
 .parallax-overlay {
@@ -712,30 +718,21 @@ section.brand-recent-work {
 	padding-bottom: 70px;
 	margin-top: 40px;
 }
-.background-cloud {
-	background-image: url(../images/background/background-cloud.jpg);
-	background-position: center center;
-	background-color: rgba(44, 62, 80, 0.4);
-	background-attachment: fixed;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
-	}
 /*team
 ----------------------------*/	
 section.brand-team {
 	margin-top: 40px;
 }
 section.brand-team .content-social {
-font-size: 30px;
+	font-size: 30px;
 }
 section.brand-team .content-social i {
-margin-right: 10px;
+	margin-right: 10px;
 color:#999;
 }
 section.brand-team .caption h4{
-color: #999;
-font-style: italic;
+	color: #999;
+	font-style: italic;
 font-weight: 400;
 }
 /*service
@@ -1088,6 +1085,15 @@ padding-top: 20px;
 }
 .pt-30 {
 padding-top: 30px;
+}
+.pt-40 {
+padding-top: 40px;
+}
+.pt-50 {
+padding-top: 50px;
+}
+.pt-60 {
+padding-top: 60px;
 }
 .mt-0 {
 margin-top: 0!important;
