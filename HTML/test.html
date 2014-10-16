@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		
+		<style>
+			
+			body,html {
+			height:100%;min-height:100%;
+			}
+			.table{
+			display:table;
+			height: 100%;
+			table-layout: fixed;
+			width:100%;
+			}
+			.table > [class*="col-"]:last-child{
+			padding-right:0px;
+			}
+			.table > [class*="col-"]:first-child{
+			padding-left:0px;
+			}
+			.table_row {
+			height: 100%;
+			display: table-row;
+			}
+			.table_cell{
+			display:table-cell;
+			vertical-align: middle;
+			height: 100%;
+			}
+			.table_cell_50 {
+			width:50%;
+			}    
+			img {max-width:100%;}
+		</style>
+	</head>
+	
+	<body>
+		<div class="table" style="background;#fff000">
+			<div class="col table_cell table_cell_50" style="background:#ccc;">
+			<img src="http://comefare.com/wp-content/uploads/2012/09/Gatto5.jpg"/>
+				
+			</div>
+			<div class="col table_cell table_cell_50" style="background-color:green;">
+				
+			</div>
+		</div>
+	</body>
+</html>
