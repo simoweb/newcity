@@ -28,7 +28,9 @@ a:active, a:focus, a:hover {
 }
 /*	2. LOGO
 ============================*/ 
-.navbar-brand:before {color:#19668d;}
+.navbar-brand i.fa {
+	color: #19668d;
+	}
 .navbar-brand span {
     color: #666;
 }

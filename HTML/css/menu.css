@@ -41,23 +41,9 @@
     line-height: 40px;
     padding: 4px  0;
     position: relative;
-    width: 140px;
+    width: 160px;
 	margin-left: 15px!important;
 	border-bottom:0;
-}
-.navbar-brand:before {
-	position:absolute;
-	left: -24px;
-	top:11px;
-	font-size: 26px;
-	width:25px;
-	content: "\f0ac";
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 .navbar-brand  span{
 	font-weight:400;
