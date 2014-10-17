@@ -379,8 +379,7 @@ p.lead {
 	position:relative;
 }
 .what-we-do .d_table .table_cell {
-	padding-top:30px;
-	padding-bottom:30px;
+	padding:70px 50px;
 }
 
 /*img*/
@@ -392,7 +391,7 @@ p.lead {
 .block-img img {
 	margin:auto;
 	}
-
+.block-img i.icon-master{font-size:100px;}
 /*text*/
 .block-text {
 	text-align:left;
@@ -625,7 +624,6 @@ section.brand-recent-work {
 ----------------------------*/
 .parallax {
 	background-position: center center;
-	background-color: rgba(44, 62, 80, 0.4);
 	background-attachment: fixed;
 	background-size: cover;
 	height: 100%;
