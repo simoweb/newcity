@@ -13,8 +13,8 @@ jQuery("document").ready(function($){
     $(window).scroll(function () {
         if ($(this).scrollTop() >38) {
             nav.addClass("fixed-menu");
-			} 
-		    else {
+		} 
+		else {
             nav.removeClass("fixed-menu");
 		}
 	});
@@ -76,6 +76,9 @@ jQuery(document).ready(function() {
 });
 
 //***************************************************
+$(window).stellar({
+	horizontalScrolling: false,
+});
 // 5 - parallax disable on mobile
 
 jQuery(document).ready(function ($) {

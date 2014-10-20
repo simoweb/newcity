@@ -220,16 +220,7 @@ background-image: none;
 
 /*	8. PAGES
 ============================*/ 
-/* title page */
-.page-title {
-background: #21252b;
-}
-.page-title p {
-color: #fcfcfc;
-}
-.page-title.contact-title {
-border-bottom: 4px solid #ddd;
-}
+
 /*	9. MEDIA QUERY 
 =============================*/
 @media (min-width: 1200px) {
