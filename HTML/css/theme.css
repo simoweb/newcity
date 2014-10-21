@@ -6,11 +6,10 @@
 ***********************************************************************/
 /* ----------------------------------
 	1.  FONTS
-	2.  GLOBAL
+	2.  GLOBAL AND TEXT
 	3.  HEADER 
 		- home slide
-	4.  TEXT 
-	5.  CONTENT
+	4.  CONTENT
 		- table-box
 		- testimonial
 		- gallery
@@ -22,18 +21,18 @@
 		- sidebar tags
 		- progress bar
 		- pricing table
-	6.  FOOTER
-	7.  PAGES
+	5.  FOOTER
+	6.  PAGES
 		- title page
 		- breadcrumb page
 		- contact
 		- features
-	8.  GENERIC CLASS 
-	9.  Large desktops and laptops
-	10. Portrait tablets and medium desktops
-	11. Portrait tablets and small desktops
-	12. Landscape phones and portrait tablets
-	13. Landscape phones and smaller
+	7.  GENERIC CLASS 
+	8.  Large desktops and laptops
+	9. Portrait tablets and medium desktops
+	10. Portrait tablets and small desktops
+	11. Landscape phones and portrait tablets
+	12. Landscape phones and smaller
 	
 -------------------------------------*/
 
@@ -103,6 +102,32 @@ ul li {
 }
 .italic {
 	font-style:italic;
+}
+
+.title {
+	text-transform: uppercase;
+}
+.title-focus {
+	margin-top: 0;
+	font-weight: 400;
+}
+.big-title {
+	font-size: 80px;
+	font-weight: 400;
+}
+p.lead {
+	font-weight: 400;
+}
+.ft-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+.ft-list > li:before {
+	content: "\f00c";
+	font-family: FontAwesome;
+	display: inline-block;
+	margin-right: 10px;
+	color: #4dc788;
 }
 
 /*	3. HEADER 
@@ -229,34 +254,7 @@ ul li {
 	width: 10%;
 }
 
-/*	4. TEXT 
-=============================*/
 
-.title {
-	text-transform: uppercase;
-}
-.title-focus {
-	margin-top: 0;
-	font-weight: 400;
-}
-.big-title {
-	font-size: 80px;
-	font-weight: 400;
-}
-p.lead {
-	font-weight: 400;
-}
-.ft-list {
-	list-style-type: none;
-	padding-left: 0;
-}
-.ft-list > li:before {
-	content: "\f00c";
-	font-family: FontAwesome;
-	display: inline-block;
-	margin-right: 10px;
-	color: #4dc788;
-}
 /* 5. CONTENT
 	
 =============================*/
@@ -504,6 +502,7 @@ section.brand-recent-work {
 	background-repeat: no-repeat;
     background-size: cover;
 	background-position:center center;
+	background-position: 50% 0;
 }
 .brand-emotional {
 	color: #FFF;
