@@ -36,8 +36,8 @@ a:active, a:focus, a:hover {
 }
 /*	3. MENU
 ============================*/ 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover {
-	color: #19668d;
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #ccc;
 }
 .navbar-default .navbar-nav > .active > a {
 	color: #19668d;
@@ -57,7 +57,7 @@ a:active, a:focus, a:hover {
 	color:#19668d;
 }
 .fixed-menu .navbar-brand  {color:#fff;}
-.fixed-menu .navbar-nav > .active > a,.fixed-menu  .navbar-brand:before {
+.fixed-menu .navbar-nav > .active > a,.fixed-menu .navbar-nav > .active > a:hover,.fixed-menu .navbar-nav > li > a:hover,.fixed-menu  .navbar-brand:before {
 	color: #19668d;
 }
 /*	4. SLIDE
