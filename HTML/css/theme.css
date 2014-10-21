@@ -452,6 +452,42 @@ p.lead {
 	box-shadow: 0 0 20px #333;
 	cursor: pointer;
 }
+
+/*service align left*/	
+.service-left .service-info {
+padding-left: 80px;
+}
+.service-left .service-icon {
+float: left;
+height: 60px;
+text-align: center;
+width: 60px;
+transition: all 0.5s 0.1s;
+-webkit-transition: all 0.5s 0.1s;
+-moz-transition: all 0.5s 0.1s;
+}
+.service-left .service-icon {
+display: inline-block;
+text-align: center;
+line-height: 60px;
+margin: 0 0 24px;
+overflow: hidden;
+zoom: 1;
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
+transition: 0.3s;
+}
+.service-left .service-icon .fa {
+font-size: 40px;
+line-height: 60px;
+display: block;
+overflow: hidden;
+zoom: 1;
+}
+.service-left .service-icon:hover {
+cursor: pointer;
+}
+.service-left .service-description {text-align:justify;}
 /*sidebar
 ----------------------------*/
 .panel-default > .panel-heading {
