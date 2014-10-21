@@ -22,6 +22,8 @@
 	padding-top:5px;
 	padding-bottom:0;
 	border-bottom: 0;
+	border-bottom:1px solid transparent;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -36,17 +38,17 @@
 }
 .navbar-brand {
 	font-size: 32px;
-    font-weight: 500;
+    font-weight: 300;
     height: 46px;
     line-height: 40px;
     padding: 4px  0;
     position: relative;
-    width: 160px;
+    width: 170px;
 	margin-left: 15px!important;
 	border-bottom:0;
 }
 .navbar-brand  span{
-	font-weight:400;
+	font-weight:300;
 }
 /* 3. FIRST LEVEL
 ============================*/
@@ -59,26 +61,18 @@
 	border:none;
 }
 .navbar-default .navbar-nav > li {
-	margin:0 25px;
+	margin:0;
 	transition: all 0.5s 0.1s;
 	-webkit-transition: all 0.5s 0.1s;
 	-moz-transition: all 0.5s 0.1s;
 	padding-bottom:0;
 	position:relative;
 }
-.navbar-default .navbar-nav > li:before {
-	content: '\f055';
-	display:inline-block;
-	font-family: FontAwesome;
-	position:absolute;
-	right: 0;
-    top: 23px;
-	}
+
 .navbar-default .navbar-nav > li:last-child:before {content:'';}	
 .navbar-default .navbar-nav > li > a {
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding: 6px 2px;
+	margin: 15px;
+	padding: 6px 10px;
 	font-size: 15px;
 	color:#333;
 }
@@ -182,6 +176,7 @@
 		padding-top:0;
 		padding-bottom:0;
 		background-color:#fff!important;
+		border-bottom:1px solid #eee!important;
 	}
 	.fixed-menu:after {
 		left: 0;

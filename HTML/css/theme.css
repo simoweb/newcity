@@ -5,7 +5,6 @@
 	Author URL:      http://www.simowebdesigner.it
 ***********************************************************************/
 /* ----------------------------------
-	1.  FONTS
 	2.  GLOBAL AND TEXT
 	3.  HEADER 
 	- home slide
@@ -38,33 +37,6 @@
 	
 -------------------------------------*/
 
-
-/*	1. FONTS 
-=============================*/
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/raleway-regular-webfont.eot');
-	src: url('../fonts/raleway-regular-webfont.eot') format('embedded-opentype'),  url('../fonts/raleway-regular-webfont.woff') format('woff'),  url('../fonts/raleway-regular-webfont.ttf') format('truetype'),  url('../fonts/raleway-regular-webfont.svg') format('svg');
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/raleway-light-webfont.eot');
-	src: url('../fonts/raleway-light-webfont.eot') format('embedded-opentype'),  url('../fonts/raleway-light-webfont.woff') format('woff'),  url('../fonts/raleway-light-webfont.ttf') format('truetype'),  url('../fonts/raleway-light-webfont.svg') format('svg');
-	font-weight: 300;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/raleway/raleway-extralight-webfont.eot');
-	src: url('../fonts/raleway-extralight-webfont.eot') format('embedded-opentype'),  url('../fonts/raleway-extralight-webfont.svg') format('svg'),  url('../fonts/raleway-extralight-webfont.woff') format('woff'),  url('../fonts/raleway-extralight-webfont.ttf') format('truetype');
-	font-weight: 200;
-	font-style: normal;
-}
-@import url('http://fonts.googleapis.com/css?family=Raleway:500,700');
-
-
 /*	2. GLOBAL 
 ============================*/
 html, body {
@@ -73,7 +45,7 @@ html, body {
     width: 100%;
 }
 body {
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	color: #8c9195;
 	font-size: 14px;
@@ -91,6 +63,7 @@ a:active, a:focus, a:hover {
 }
 h1, h2, h3, h4 , h5{
 	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
     color: #8c9195;
