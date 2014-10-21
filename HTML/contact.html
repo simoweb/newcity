@@ -98,7 +98,7 @@
 						<div class="col-sm-6 col-sm-6 text-right"> <i class="fa fa-facebook-square"></i> <i class="fa fa-twitter-square"></i> <i class="fa fa-google-plus-square"></i> <i class="fa fa-youtube-square"></i></div>
 					</div>
 				</div>
-				</section>
+			</section>
 			<!--end top contact--> 
 			<!--Menu-->
 			<div id="menu"> 
@@ -111,11 +111,11 @@
 									<!--logo-->
 									<a class="navbar-brand" href="#"><i class="fa fa-map-marker"></i><span>new</span>city</a>
 									<div class="subtitle hidden-xs">Business Template </div>
-									<!--end logo-->
+									<!--end logo--> 
 								</div>
 								<div class="collapse navbar-collapse" id="navbar-collapse">
 									<ul class="nav navbar-nav navbar-right">
-										<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<span class="caret"></span></a>
+										<li class="dropdown active"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<span class="caret"></span></a>
 											<ul class="dropdown-menu" role="menu">
 												<li><a href="index.html">Home animate</a></li>
 												<li><a href="index2.html">Home animate2</a></li>
@@ -146,8 +146,8 @@
 										<li><a href="features.html">Features</a></li>
 										<li class="dropdown active"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="current">Contact<span class="caret"></span></span></a>
 											<ul class="dropdown-menu" role="menu">
-												<li class="active"><a href="contact.html">Contact</a></li>
-												<li><a href="contact2.html">Contact full</a></li>
+												<li><a href="contact.html">Contact</a></li>
+												<li class="active"><a href="contact2.html">Contact full</a></li>
 											</ul>
 										</li>
 										<li class="search visible-lg">
@@ -171,16 +171,16 @@
 		<!-- END HEADER --> 
 		
 		<!--page title-->
-		<div class="page-title">
+		<div class="page-title contact-title mb-0">
 			<div class="container">
 				<div class="row">
 					<div class=" col-sm-8">
-						<h2 class="title">Contact</h2>
+						<h2 class="title pull-left">Contact full</h2>
 					</div>
 					<div class=" col-sm-4">
 						<ol class="breadcrumb pull-right">
 							<li><a href="#">Home</a></li>
-							<li class="active">contact</li>
+							<li class="active">contact full</li>
 						</ol>
 					</div>
 				</div>
@@ -189,47 +189,44 @@
 		<!-- end page title--> 
 		<!-- CONTENT -->
 		<div id="content"> 
-			<!--box intro-->
+			<!--map-->
+			<div id="map-canvas" class="mb-30" style="height:300px; width:100%;"></div>
+			<!--end map-->
 			<div class="container">
-				<div class="row">
-					<div class="col-sm-7">
-						<div id="map-canvas" style="height:300px; width:100%;"></div>
-						<form class="contact-form mt-30">
-							<div class="form-group">
-								<label for="inputEmail">Email</label>
-								<input type="email" class="form-control" id="inputEmail">
-							</div>
-							<div class="form-group">
-								<label for="inputPassword">Password</label>
-								<input type="password" class="form-control" id="inputPassword">
-							</div>
-							<div class="form-group">
-								<label for="inputPassword">Your text</label>
-								<textarea class="form-control" rows="3"></textarea>
-							</div>
-							<button type="submit" class="btn btn-theme">Submit</button>
-						</form>
-					</div>
-					<div class="col-sm-4 col-xs-offset-1">
-						<h2 class="title-focus">Contac us</h2>
-						<p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
-						<hr class="hr-20"/>
-						<ul class="list-unstyled">
-							<li>1000 Avenue, Suite 333, New York </li>
-							<li>Farmville Town, LA 12345</li>
-							<li>Tel: +32 600 500 123</li>
-							<li>Email: testmail@yourdomain.com</li>
-							<li>Website: www.yoursitename.com</li>
-						</ul>
-						<hr class="hr-20"/>
-						<h3 class="mt-0">Our experience</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-						<hr/>
-					</div>
+				<div class="col-sm-4">
+					<h2>Contac us</h2>
+					<p class="lead mt-30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+					<hr class="hr-20"/>
+					<ul class="list-unstyled">
+						<li>1000 Avenue, Suite 333, New York </li>
+						<li>Farmville Town, LA 12345</li>
+						<li>Tel: +32 600 500 123</li>
+						<li>Email: testmail@yourdomain.com</li>
+						<li>Website: www.yoursitename.com</li>
+					</ul>
+					<hr class="hr-20"/>
+				</div>
+				<div class="col-sm-7 col-sm-offset-1">
+					<h2>Contact form</h2>
+					<form class="contact-form mt-30">
+						<div class="form-group">
+							<label for="inputEmail">Email</label>
+							<input type="email" class="form-control" id="inputEmail">
+						</div>
+						<div class="form-group">
+							<label for="inputPassword">Password</label>
+							<input type="password" class="form-control" id="inputPassword">
+						</div>
+						<div class="form-group">
+							<label for="inputPassword">Your text</label>
+							<textarea class="form-control" rows="3"></textarea>
+						</div>
+						<button type="submit" class="btn btn-theme">Submit</button>
+					</form>
 				</div>
 			</div>
 		</div>
+		
 		<!-- END CONTENT --> 
 		<!--footer-->
 		<div id="footer">

@@ -597,7 +597,8 @@ ul.list-contact li {
 .page-title {
 	background-color: #efefef;
 	padding-bottom: 15px;
-	padding-top: 50px;
+	padding-top: 110px;
+	padding-bottom:60px;
 	position: relative;
 	text-align: left;
 	width: 100%;
@@ -800,6 +801,7 @@ hr {
 .pl-40 {padding-left:40px;}
 .pl-50 {padding-left:50px;}
 .pl-60 {padding-left:60px;}
+.p0 {padding:0!important;}
 
 /*margin top*/
 .mt-0 {margin-top:0;}
@@ -832,6 +834,7 @@ hr {
 .ml-40 {margin-left:40px;}
 .ml-50 {margin-left:50px;}
 .ml-60 {margin-left:60px;}
+.m0 {margin:0!important;}
 /*center element*/
 .centered {
 	display: block;

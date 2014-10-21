@@ -19,7 +19,7 @@
 	transition: all 0.5s 0.1s;
 	-webkit-transition: all 0.5s 0.1s;
 	-moz-transition: all 0.5s 0.1s;
-	padding-top:20px;
+	padding-top:5px;
 	padding-bottom:0;
 	border-bottom: 0;
 }
