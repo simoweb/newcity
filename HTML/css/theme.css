@@ -465,20 +465,13 @@ width: 60px;
 transition: all 0.5s 0.1s;
 -webkit-transition: all 0.5s 0.1s;
 -moz-transition: all 0.5s 0.1s;
+-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
 }
-.service-left .service-icon {
-display: inline-block;
-text-align: center;
-line-height: 60px;
-margin: 0 0 24px;
-overflow: hidden;
-zoom: 1;
--webkit-transition: 0.3s;
--o-transition: 0.3s;
-transition: 0.3s;
-}
+
 .service-left .service-icon .fa {
-font-size: 40px;
+font-size: 20px;
 line-height: 60px;
 display: block;
 overflow: hidden;
