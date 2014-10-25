@@ -24,6 +24,7 @@
 	border-bottom: 0;
 	border-bottom:1px solid transparent;
 	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
@@ -43,7 +44,6 @@
     line-height: 40px;
     padding: 4px  0;
     position: relative;
-    width: 170px;
 	margin-left: 15px!important;
 	border-bottom:0;
 }
@@ -230,7 +230,6 @@
 @media (max-width: 767px) {
 	.navbar-brand {
 		float: left;
-		height: 50px;
 	}
 	.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > .active > a {
 		padding: 10px 20px;

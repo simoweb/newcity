@@ -63,7 +63,7 @@ a:active, a:focus, a:hover {
 }
 h1, h2, h3, h4 , h5{
 	font-weight: 400;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
     color: #8c9195;
@@ -72,6 +72,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 }
 h1.title {
 	font-size: 55px;
+	font-weight:500;
 }
 ul li {
 	margin-bottom: 10px;
@@ -187,6 +188,7 @@ p.lead {
 
 /*table-box
 ----------------------------*/
+/*
 .table-box {
 }
 .table-box .d_table {
@@ -195,6 +197,7 @@ p.lead {
 .table-box .d_table .table_cell,.table-box .d_table .table_cell50 {
 	padding:70px 50px;
 }
+*/
 /*img*/
 .block-img {
 	text-align:center;
@@ -204,7 +207,7 @@ p.lead {
 .block-img img {
 	margin:auto;
 }
-.block-img i.icon-master{font-size:100px;}
+ i.icon-master{font-size:100px;}
 /*text*/
 .block-text {
 	text-align:left;
@@ -735,12 +738,6 @@ section.brand-team .caption h4{
 	width:100%;
 	max-width:100%;
 }
-.d_table > [class*="col-"]:last-child{
-	padding-right:0px;
-}
-.d_table > [class*="col-"]:first-child{
-	padding-left:0px;
-}
 .table_row {
 	height: 100%;
 	display: table-row;
@@ -749,10 +746,9 @@ section.brand-team .caption h4{
 	display:table-cell;
 	vertical-align: middle;
 	height: 100%;
+	float:none;
 }
-.table_cell_50 {
-	width:50%;
-}   
+  
 /*class for animate on scroll*/
 .hidden-scroll {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -772,6 +768,12 @@ hr {
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #fff;
 }
+/*div divider*/
+.divider {
+	margin:20px 0;
+	font-size:30px;
+	}
+
 /*padding top*/
 .pt-0 {padding-top:0;}
 .pt-10 {padding-top:10px;}
@@ -847,7 +849,7 @@ hr {
 /*background color*/
 .bg-green-cyan {background-color:#1bbc9b;}
 .bg-gray {background-color:#f0f0f0;}
-.bg-black {background-color:#333;}
+.bg-black {background-color:#171b1e;}
 .bg-strong-red {background-color:#bc1b3c;}
 
 .transition {
@@ -904,9 +906,6 @@ hr {
 	.carousel .item {
 		padding: 0;
 	}
-	.pt-30 {
-		padding-top: 0;
-	}
 	/*portfolio*/
 	.portfolio .content-img {
 		margin-bottom: 20px;
@@ -921,15 +920,16 @@ hr {
 	.carousel-indicators li {
 		border: 1px solid #ccc;
 	}
+	/*table box*/
+	.table-box .table_cell{
+		display:block;
+		width:100%;
+	}
 }
 /*	13 . Landscape phones and smaller
 =============================*/
 @media (max-width: 480px) {
-	
-	.table-box .table_cell50 {
-		display:block;
-		width:100%;
-	}	
+		
 	figcaption {
 		padding-bottom: 15px;
 		padding-top: 15px;
