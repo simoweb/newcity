@@ -188,16 +188,7 @@ p.lead {
 
 /*table-box
 ----------------------------*/
-/*
-.table-box {
-}
-.table-box .d_table {
-	position:relative;
-}
-.table-box .d_table .table_cell,.table-box .d_table .table_cell50 {
-	padding:70px 50px;
-}
-*/
+
 /*img*/
 .block-img {
 	text-align:center;
@@ -862,9 +853,6 @@ hr {
 /*	8 .  Large desktops and laptops 
 =============================*/
 @media (min-width: 1200px) {
-	.slider-wrapper{
-		margin-top:71px;
-	}
 	/*portfolio*/
 	.portfolio [class*="col"] {
 		padding: 5px;
@@ -887,9 +875,6 @@ hr {
 		padding-bottom: 25px;
 		padding-top: 25px;
 	}
-	.carousel .item {
-		padding: 0;
-	}
 	/*portfolio*/
 	.portfolio [class*="col"] {
 		padding: 0;
@@ -909,16 +894,6 @@ hr {
 	/*portfolio*/
 	.portfolio .content-img {
 		margin-bottom: 20px;
-	}
-	/*carousel*/
-	.carousel-indicators {
-		bottom: -40px;
-	}
-	.carousel-indicators .active {
-		background-color: #ccc;
-	}
-	.carousel-indicators li {
-		border: 1px solid #ccc;
 	}
 	/*table box*/
 	.table-box .table_cell{
