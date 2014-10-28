@@ -193,23 +193,15 @@ color: #19668d;;
 	background: none repeat scroll 0 0 #6CA9C6; 
 	}
 /***** sidebar *****/
-.panel-default > .panel-heading {
-background: #fff;
-color: #666;
-}
-.panel-default > .panel-heading i.fa {
-color: #19668d;
-}
-/*categories*/
-ul.sidebar li {
-border-bottom: 1px solid #eee;
-}
-ul.sidebar li i {
-color: #ccc;
-}
-ul.sidebar li.active a {
-color: #ccc;
-}
+.widget_sidebar  h3 i.fa {width:35px;} 
+.widget_sidebar li.active a:link, .widget_sidebar li.active a:visited {color:#6CA9C6;}
+.widget_sidebar li:hover {
+	background-color:#6CA9C6;
+	}
+.widget_sidebar li:hover a{
+	color:#fff;
+	}	
+
 /***** table *****/ 
 .panel-primary > .panel-heading {
 background-color: #19668d;
