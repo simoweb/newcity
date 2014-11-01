@@ -1,0 +1,180 @@
+
+//color primary
+$colorPrimary:#19668d;
+$whiteColor:#fff;
+
+//body
+$bodyColor:#8c9195;
+//link
+$linkColor:$colorPrimary;
+$linkHoverColor:#ccc;
+
+//logo
+$logoColor:$whiteColor;
+
+//menu
+$menuDefaultLink:$whiteColor;
+$menuFixedLink:$whiteColor;
+$menuFixedActive:$colorPrimary;
+
+//text
+$title:$colorPrimary;
+$titleSpan:#666;
+
+//content
+	//portfolio filters
+	$portfolioActiveColor:$whiteColor;
+	$portfolioActiveBg:$colorPrimary;
+	//gallery
+	$galleryBgOverlay:$colorPrimary;
+	$galleryTextOverlay:$whiteColor;
+	//service
+	$serviceBgIcon:#69B8D6;
+	$serviceBordIcon:transparent;
+	$serviceTextIcon:$whiteColor;
+	$serviceInfo:#666;
+
+//table
+$primaryHeading:$colorPrimary;
+
+//button
+$buttonBgTheme:$colorPrimary;
+$buttonColorTheme:$whiteColor;
+$buttonHoverColorTheme:#fcfcfc;
+$buttonHoverBgTheme:#6f9bad;
+$buttonBorderTheme:1px solid rgba(74,143,173, 0.9) !important;
+
+/* COLOR DEFAULT
+============================*/
+/*
+	1.  GLOBAL 
+	2.  LOGO
+	3.  MENU
+	4.  BUTTON 
+	5.  TEXT
+	6.	CONTENT
+	7.  MEDIA QUERY
+*/
+
+/*	1. GLOBAL 
+============================*/
+
+body {
+	color:$bodyColor
+}
+a:link, a:visited {
+	color: $linkColor;
+}	
+a:active, a:focus, a:hover {
+	color: $linkHoverColor;
+}
+/*	2. LOGO
+============================*/ 
+
+.navbar-brand{
+
+    i.fa{
+		color:$linkColor;
+		}
+    span{
+		color:$logoColor;
+		}	
+   }
+
+/*	3. MENU
+============================*/ 
+.navbar-default .navbar-nav > li {
+	& a:hover,
+	& a:focus,
+	&.active a:hover, 
+	&.active a:focus {
+		color: $linkHoverColor;
+		}
+}				 
+.navbar-default .navbar-nav > .active > a {
+	color: $linkColor;
+}
+.dropdown-menu {
+	 border-top: 0 solid transparent;
+	.dropdown-menu  > li  > a:hover,
+	.dropdown-menu  > li  > a:focus,
+	.dropdown-menu > .active > a,
+	.dropdown-menu > .active > a:hover,
+	.dropdown-menu > .active > a:focus {
+										color:$linkColor;
+										}
+	}
+.fixed-menu .navbar-brand  {
+	color:$menuFixedLink;
+	&.active > a,
+	&.active > a:hover,
+	&:before {
+				color: $linkColor;
+			  }
+	}
+
+/*	4. BUTTON
+============================*/ 
+/*button theme*/
+.btn-theme,a.btn-theme {
+	color:$buttonColorTheme;
+	background: $buttonBgTheme;
+	border: $buttonBorderTheme;
+}
+.btn-theme:hover, .btn-theme:focus,.btn-theme:active  {
+	background-color: $buttonHoverBgTheme;
+	border-color: $buttonHoverColorTheme;
+	color:$buttonHoverColorTheme;
+}
+/*	5. TEXT
+============================*/ 
+.title {        
+	color:$title; 
+	& span {
+		color:$titleSpan;
+		}
+	&-focus {
+		color:$linkColor;
+		}
+}
+
+
+/*	6. CONTENT
+============================*/ 
+/***** gallery *****/
+
+.portfolio-filters li.active {
+	color:$portfolioActiveColor;
+	background-color:$portfolioActiveBg;
+}
+.img-overlay {
+	background-color: $galleryBgOverlay;
+	& .caption-centered span {
+		color:$galleryTextOverlay;
+		}	
+}
+/***** service *****/ 
+.service-icon {
+	background-color:$serviceBgIcon;
+	border-color:$serviceBordIcon;
+	& .fa {
+		color:$serviceTextIcon;
+		}
+	}
+	
+.service-info h4 {color:$serviceInfo;font-weight:500;}	
+
+/***** table *****/ 
+.panel-primary > .panel-heading {
+	background-color: $primaryHeading;
+	background-image: none;
+}
+
+/* 7. MEDIA QUERY
+============================*/
+/* Large desktops and laptops
+----------------------------*/	
+@media (min-width: 1200px) { 
+	 #navbar .navbar-nav .active a{ color: $menuDefaultLink; }
+	 #navbar.fixed-menu .navbar-nav .active a {color: $menuFixedActive;}
+	}

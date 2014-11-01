@@ -1,0 +1,11 @@
+$primaryColor: #fff;
+
+
+h1{
+   color:$primaryColor;
+}
+p{
+   color:$primaryColor;
+   &.red{color:red;}
+   &.green{color:green;}
+}

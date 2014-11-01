@@ -71,8 +71,8 @@
 
 .navbar-default .navbar-nav > li:last-child:before {content:'';}	
 .navbar-default .navbar-nav > li > a {
-	margin: 15px;
-	padding: 6px 10px;
+	margin: 15px 25px;
+	padding: 6px 0;
 	font-size: 15px;
 	color:#333;
 }
@@ -82,7 +82,6 @@
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	color:;
 }
 .navbar-default .navbar-nav > .active > a  {
 	color:#333;
@@ -161,10 +160,24 @@
 		color:#fff;
 	}
 	.navbar-default .navbar-nav > .active > a  {
+		position:relative;
 		color:#fff;
 		-webkit-border-radius: 0;
 		-moz-border-radius: 0;
 		border-radius: 0;
+	}
+	.navbar-default .navbar-nav > .active > a:after  {
+		content:'';
+		position:absolute;
+		bottom:0;
+		left:0;
+		bottom:0;
+		height:1px;
+		width:100%;
+		background-color:#ccc;
+		color:#fff;
+		margin:0;
+		padding: 0;
 	}
 	/*fixed menu*/
 	.fixed-menu {
@@ -190,6 +203,9 @@
 	}
 	.fixed-menu .navbar-nav > li > a {
 		color:#333;
+	}
+	.fixed-menu .navbar-nav > li.active > a:after {
+		display:none;;
 	}
 	.fixed-menu .subtitle { 
 		color:#999;

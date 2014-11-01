@@ -4,10 +4,12 @@
 	1.  GLOBAL 
 	2.  LOGO
 	3.  MENU
-	4.  BUTTON 
-	5.  TEXT
-	6.	CONTENT
-	7.  MEDIA QUERY
+	4.  SLIDE 
+	5.  BUTTON 
+	6.  TEXT
+	7.	CONTENT
+	8.	PAGES
+	9.  MEDIA QUERY
 */
 /*	1. GLOBAL 
 ============================*/
@@ -18,19 +20,19 @@ a:link, a:visited {
   color: #19668d; }
 
 a:active, a:focus, a:hover {
-  color: #cccccc; }
+  color: #ccc; }
 
 /*	2. LOGO
 ============================*/
 .navbar-brand i.fa {
   color: #19668d; }
 .navbar-brand span {
-  color: white; }
+  color: #fff; }
 
 /*	3. MENU
 ============================*/
 .navbar-default .navbar-nav > li a:hover, .navbar-default .navbar-nav > li a:focus, .navbar-default .navbar-nav > li.active a:hover, .navbar-default .navbar-nav > li.active a:focus {
-  color: #cccccc; }
+  color: #ccc; }
 
 .navbar-default .navbar-nav > .active > a {
   color: #19668d; }
@@ -45,15 +47,15 @@ a:active, a:focus, a:hover {
     color: #19668d; }
 
 .fixed-menu .navbar-brand {
-  color: white; }
+  color: #fff; }
   .fixed-menu .navbar-brand.active > a, .fixed-menu .navbar-brand.active > a:hover, .fixed-menu .navbar-brand:before {
     color: #19668d; }
 
-/*	4. BUTTON
+/*	5. BUTTON
 ============================*/
 /*button theme*/
 .btn-theme, a.btn-theme {
-  color: white;
+  color: #fff;
   background: #19668d;
   border: 1px solid rgba(74, 143, 173, 0.9) !important; }
 
@@ -62,36 +64,32 @@ a:active, a:focus, a:hover {
   border-color: #fcfcfc;
   color: #fcfcfc; }
 
-/*	5. TEXT
+/*	6. TEXT
 ============================*/
 .title {
   color: #19668d; }
   .title span {
-    color: #666666; }
+    color: #666; }
   .title-focus {
     color: #19668d; }
 
-/*	6. CONTENT
+/*	7. CONTENT
 ============================*/
 /***** gallery *****/
-.portfolio-filters li.active {
-  color: white;
-  background-color: #19668d; }
-
 .img-overlay {
   background-color: #19668d; }
   .img-overlay .caption-centered span {
-    color: white; }
+    color: #fff; }
 
 /***** service *****/
 .service-icon {
-  background-color: #69b8d6;
+  background-color: #69B8D6;
   border-color: transparent; }
   .service-icon .fa {
-    color: white; }
+    color: #fff; }
 
 .service-info h4 {
-  color: #666666;
+  color: #666;
   font-weight: 500; }
 
 /***** table *****/
@@ -99,13 +97,7 @@ a:active, a:focus, a:hover {
   background-color: #19668d;
   background-image: none; }
 
-/* 7. MEDIA QUERY
+/*	8. PAGES
 ============================*/
-/* Large desktops and laptops
-----------------------------*/
-@media (min-width: 1200px) {
-  #navbar .navbar-nav .active a {
-    color: white; }
 
-  #navbar.fixed-menu .navbar-nav .active a {
-    color: #19668d; } }
+/*# sourceMappingURL=default.css.map */
